@@ -1,0 +1,86 @@
+[ AutoCAD - Wed Jun 02 00:24:32 2021  ]----------------------------------------
+Loading AEC Base...
+Loading AEC Base Extended...
+Loading AEC Core...
+Loading AEC Project Base...
+Loading AEC Architectural Base...
+Loading AEC Schedule...
+
+Loading Modeler DLLs.
+
+Opening an AutoCAD 2018 format file.
+Substituting [simplex.shx] for [Freehand575 BT].
+
+
+AutoCAD menu utilities loaded.*Cancel*
+
+Command: 
+
+Autodesk DWG.  This file is a TrustedDWG last saved by an Autodesk application or Autodesk licensed application.
+
+Command: 
+
+Command: 
+Command:  
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command:  
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _QSAVE 
+Command: *Cancel*
+
+Command: *Cancel*
+
+Command: _quit 
+Command: 

@@ -1,0 +1,5204 @@
+[ AutoCAD - Wed Jun 02 09:19:02 2021  ]----------------------------------------
+Loading AEC Base...
+Loading AEC Base Extended...
+Loading AEC Core...
+Loading AEC Project Base...
+Loading AEC Architectural Base...
+Loading AEC Schedule...
+
+Loading Modeler DLLs.
+
+Opening an AutoCAD 2018 format file.
+Substituting [simplex.shx] for [Freehand575 BT].
+
+
+AutoCAD menu utilities loaded.*Cancel*
+
+Command: 
+
+Autodesk DWG.  This file is a TrustedDWG last saved by an Autodesk application or Autodesk licensed application.
+
+Command: 
+
+Command: 
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _.TILEMODE 
+Enter new value for TILEMODE <1>: 0 Regenerating layout.
+Regenerating model - caching viewports.
+
+Command: 
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIPAN INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 MTEDIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM INTELLIZOOM INTELLIZOOM INTELLIZOOM INTELLIZOOM INTELLIZOOM INTELLIPAN INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 TILEMODE 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _CHAMFEREDGE Distance1 = 1.000, Distance2 = 1.000
+Select an edge or [Loop/Distance]: 
+Select another edge on the same face or [Loop/Distance]: 
+
+
+Failed to perform blend.
+
+Failure while chamfering.
+
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _CHAMFEREDGE Distance1 = 1.000, Distance2 = 1.000
+Select an edge or [Loop/Distance]: *Cancel*
+
+
+No edges to chamfer.
+
+Command: 
+Command: _CHAMFEREDGE Distance1 = 1.000, Distance2 = 1.000
+Select an edge or [Loop/Distance]: *Cancel*
+
+
+No edges to chamfer.
+
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+4 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+2 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _solidedit 
+Solids editing automatic checking:  SOLIDCHECK=1
+Enter a solids editing option [Face/Edge/Body/Undo/eXit] <eXit>: _body 
+Enter a body editing option
+[Imprint/seParate solids/Shell/cLean/Check/Undo/eXit] <eXit>: _shell 
+Select a 3D solid: 
+Remove faces or [Undo/Add/ALL]: *Cancel*
+
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+Command: _.TILEMODE 
+Enter new value for TILEMODE <1>: 0 Regenerating layout.
+Regenerating model - caching viewports.
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 TILEMODE 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 FILLETEDGE GROUP 
+Automatic save to C:\Users\MARTIJ~1\AppData\Local\Temp\Deel_1_1_26845_282eb8e0.sv$ ...
+
+Command: 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 SOLIDEDIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 FILLETEDGE GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 FILLETEDGE GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 CHAMFEREDGE GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 CHAMFEREDGE GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.3DPAN2 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 CHAMFEREDGE GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 FILLETEDGE GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Everything has been undone
+
+Command:  
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+Command:  
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: *Cancel*
+
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Crossing Lasso  Press Spacebar to cycle options
+Crossing Lasso  Press Spacebar to cycle options
+Command: 
+Command: 
+
+
+Command: 
+Command:  
+Command: _u DROPGEOM GROUP 
+Command: _u '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _cullingobj 
+Enter new value for CULLINGOBJ <1>: 0 
+Command: 
+Command: 
+Command: 
+Command: _cullingobj 
+Enter new value for CULLINGOBJ <0>: 1 
+Command: 
+Command: 
+Command: 
+Command: _cullingobj 
+Enter new value for CULLINGOBJ <1>: 0 
+Command: 
+Command: *Cancel*
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: 
+Command: _HideObjects 1 found
+
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _slice 
+Select objects to slice: 1 found
+
+Select objects to slice: 
+
+Specify start point of slicing plane or [planar Object/Surface/Zaxis/View/XY/YZ/ZX/3points] <3points>: 
+Specify second point on plane: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming SLICE command.
+
+Specify second point on plane: 
+Checking 595 intersections... 
+Specify a point on desired side or [keep Both sides] <Both>: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming SLICE command.
+
+Specify a point on desired side or [keep Both sides] <Both>: 
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: Regenerating layout.
+Regenerating model - caching viewports.
+Restoring cached viewports.
+
+Command: 
+Command: _unisolateobjects 
+1 object(s) unisolated.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 UNISOLATEOBJECTS GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 Regenerating layout.
+Regenerating model - caching viewports.
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 SLICE GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 Hide Objects GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: SOLIDEDIT
+
+Solids editing automatic checking:  SOLIDCHECK=1
+Enter a solids editing option [Face/Edge/Body/Undo/eXit] <eXit>: F
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: D
+
+Select faces or [Undo/Remove]: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming SOLIDEDIT command.
+
+Select faces or [Undo/Remove]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 2 faces found.
+
+Select faces or [Undo/Remove/ALL]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 2 faces found.
+
+Select faces or [Undo/Remove/ALL]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+
+Solid validation started.
+Solid validation completed.
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming SOLIDEDIT command.
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: *Cancel*
+
+Command: _u SOLIDEDIT 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: *Cancel*
+
+Command: SOLIDEDIT
+
+Solids editing automatic checking:  SOLIDCHECK=1
+Enter a solids editing option [Face/Edge/Body/Undo/eXit] <eXit>: F
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: D
+
+Select faces or [Undo/Remove]: 1 face found.
+
+Select faces or [Undo/Remove/ALL]: 1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+Select faces or [Undo/Remove/ALL]: 
+Select faces or [Undo/Remove/ALL]: *Cancel*
+
+Command: 
+Command: *Cancel*
+
+Command: SOLIDEDIT
+
+Solids editing automatic checking:  SOLIDCHECK=1
+Enter a solids editing option [Face/Edge/Body/Undo/eXit] <eXit>: F
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: D
+
+Select faces or [Undo/Remove]: 1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+
+Modeling Operation Error:
+Error Code Number is 58000
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: D
+
+Select faces or [Undo/Remove]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+
+Modeling Operation Error:
+Error Code Number is 58000
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: D
+
+Select faces or [Undo/Remove]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+
+Modeling Operation Error:
+Error Code Number is 58000
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: D
+
+Select faces or [Undo/Remove]: 2 faces found.
+
+Select faces or [Undo/Remove/ALL]: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming SOLIDEDIT command.
+
+Select faces or [Undo/Remove/ALL]: *Cancel*
+
+Command: *Cancel*
+
+Command: SOLIDEDIT
+
+Solids editing automatic checking:  SOLIDCHECK=1
+Enter a solids editing option [Face/Edge/Body/Undo/eXit] <eXit>: E
+
+Enter an edge editing option [Copy/coLor/Undo/eXit] <eXit>: U
+
+Command has been completely undone.
+
+Enter an edge editing option [Copy/coLor/Undo/eXit] <eXit>: U
+
+Command has been completely undone.
+
+Enter an edge editing option [Copy/coLor/Undo/eXit] <eXit>: U
+
+Command has been completely undone.
+
+Enter an edge editing option [Copy/coLor/Undo/eXit] <eXit>: X
+
+Solids editing automatic checking:  SOLIDCHECK=1
+Enter a solids editing option [Face/Edge/Body/Undo/eXit] <eXit>: F
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: D
+
+Select faces or [Undo/Remove]: 2 faces found.
+
+Select faces or [Undo/Remove/ALL]: 1 face found.
+
+Select faces or [Undo/Remove/ALL]: 1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+
+Solid validation started.
+Solid validation completed.
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming SOLIDEDIT command.
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: *Cancel*
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Press Enter to accept the fillet or [Radius]:
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 FILLETEDGE GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 SOLIDEDIT 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 SOLIDEDIT 
+Command:  
+Command: *Cancel*
+
+Command: SOLIDEDIT
+
+Solids editing automatic checking:  SOLIDCHECK=1
+Enter a solids editing option [Face/Edge/Body/Undo/eXit] <eXit>: F
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: D
+
+Select faces or [Undo/Remove]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 1 face found.
+
+Select faces or [Undo/Remove/ALL]: 1 face found.
+
+Select faces or [Undo/Remove/ALL]: 1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+
+Solid validation started.
+Solid validation completed.
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming SOLIDEDIT command.
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: *Cancel*
+
+Automatic save to C:\Users\MARTIJ~1\AppData\Local\Temp\Deel_1_1_26845_282eb8e0.sv$ ...
+
+Command: 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 SOLIDEDIT 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.3DPAN2 
+Command: 
+.UNDO
+Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: *Cancel*
+
+Command: SOLIDEDIT
+
+Solids editing automatic checking:  SOLIDCHECK=1
+Enter a solids editing option [Face/Edge/Body/Undo/eXit] <eXit>: F
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: D
+
+Select faces or [Undo/Remove]: 1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+
+Solid validation started.
+Solid validation completed.
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming SOLIDEDIT command.
+
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: *Cancel*
+
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: *Cancel*
+
+0 edge(s) selected for fillet.
+
+No fillet to be computed.
+
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Press Enter to accept the fillet or [Radius]:
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 FILLETEDGE GROUP 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: R
+
+Enter fillet radius <1.000>: 2
+
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Press Enter to accept the fillet or [Radius]:
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: *Cancel*
+
+Command: *Cancel*
+
+Command: *Cancel*
+
+Command: *Cancel*
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Crossing Lasso  Press Spacebar to cycle options
+Command: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 2.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+3 edge(s) selected for fillet.
+
+Press Enter to accept the fillet or [Radius]:
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 2.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Press Enter to accept the fillet or [Radius]:
+
+Command:  
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 2.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+3 edge(s) selected for fillet.
+
+Press Enter to accept the fillet or [Radius]:*Cancel*
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 2.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+3 edge(s) selected for fillet.
+
+Press Enter to accept the fillet or [Radius]:
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 2.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+4 edge(s) selected for fillet.
+
+Modeling Operation Error:
+Error Code Number is 12026
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 2.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+2 edge(s) selected for fillet.
+
+Modeling Operation Error:
+Error Code Number is 12026
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 2.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: R
+
+Enter fillet radius <2.000>: 13
+
+Select an edge or [Chain/Loop/Radius]: 
+
+2 edge(s) selected for fillet.
+
+Press Enter to accept the fillet or [Radius]:
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _QSAVE 
+Command: 
+Command: *Cancel*
+
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Automatic save to C:\Users\MARTIJ~1\AppData\Local\Temp\Deel_1_1_19899_ec5ebe3c.sv$ ...
+
+Command: 
+Command: 
+Command: 
+Command: _qnew 
+Command: 
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  <Ortho on> 
+Command:  
+Command:  
+Command:  
+Command:  
+Command: 
+Command: 
+Command: 
+Command: 
+Command: _mtext 
+Current text style:  "Standard"  Text height:  2.5  Annotative:  No
+Specify first corner: 
+Specify opposite corner or [Height/Justify/Line spacing/Rotation/Style/Width/Columns]: 
+
+Command: 
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Command: 3DO
+3DORBIT Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Automatic save to C:\Users\MARTIJ~1\AppData\Local\Temp\Deel_1_1_19899_ec5ebe3c.sv$ ...
+
+Command: 
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: 3DORBIT
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command: 
+Command: 
+Command: _move 1 found
+
+Specify base point or [Displacement] <Displacement>: 
+Specify second point or <use first point as displacement>: *Cancel*
+
+Command: 
+Command: 
+Command: 
+Command: _rotate 
+Current positive angle in UCS:  ANGDIR=counterclockwise  ANGBASE=0.00
+1 found
+
+Specify base point: 
+Specify rotation angle or [Copy/Reference] <0.00>: 
+Command:  
+Command:  
+Command: *Cancel*
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.VIEWCUBEACTION 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 Rotate GROUP 
+Command: 
+Command: 
+Command: 
+Command: _rotate 
+Current positive angle in UCS:  ANGDIR=counterclockwise  ANGBASE=0.00
+1 found
+
+Specify base point: 
+Too many objects selected for INTERSECT
+
+Specify rotation angle or [Copy/Reference] <0.00>: 90
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 Rotate GROUP 
+Command: 
+Command: 
+Command: 
+Command: _rotate 
+Current positive angle in UCS:  ANGDIR=counterclockwise  ANGBASE=0.00
+1 found
+
+Specify base point: 
+
+Invalid point.
+
+Specify base point: 
+
+Invalid point.
+
+Specify base point: 
+Specify rotation angle or [Copy/Reference] <0.00>: 
+Command: 
+Command: 
+Command: 
+
+
+Command: 
+Command:  
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command:  
+Command: 
+Command: 
+Command: 
+Command: '_.quickproperties 
+Command: 
+Command: '_.quickproperties 
+Command: *Cancel*
+
+Command: 
+Command: *Cancel*
+
+Command:  
+Command: 
+Command: *Cancel*
+
+Command: 
+Command:  
+Command: *Cancel*
+
+Command: 
+Command:  
+Command: *Cancel*
+
+Command: 
+Command:  
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 QUICKPROPERTIES GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 QUICKPROPERTIES GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 QUICKPROPERTIES GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.QUICKPROPERTIES 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.QUICKPROPERTIES 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.VIEWCUBEACTION 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 MTEDIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 DROPGEOM GROUP 
+Command: 
+Command: 
+Command: 
+
+
+Command: 
+Command:  
+Command:  <Polar on> 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command:  
+Command:  
+Command:  
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command: 
+Command: 
+Command: 
+Command: _copyclip 1 found
+
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _pasteclip Duplicate definition of block _DotSmall  ignored.
+Duplicate definition of block _ArchTick  ignored.
+Substituting [simplex.shx] for [Freehand575 BT].
+Specify insertion point: 
+Command: 
+Command: 
+Command: _pasteclip Duplicate definition of block _DotSmall  ignored.
+Duplicate definition of block _ArchTick  ignored.
+Substituting [simplex.shx] for [Freehand575 BT].
+Specify insertion point: 
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command:  
+Command:  
+Command: 
+Command: 
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: _copyclip 3 found
+
+Command: 
+Command: 
+Command: _pasteclip Duplicate definition of block _DotSmall  ignored.
+Duplicate definition of block _ArchTick  ignored.
+Substituting [simplex.shx] for [Freehand575 BT].
+Specify insertion point: 
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command:  
+Command: 
+Command: 
+Command: _pasteclip Duplicate definition of block _DotSmall  ignored.
+Duplicate definition of block _ArchTick  ignored.
+Substituting [simplex.shx] for [Freehand575 BT].
+Specify insertion point: 
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command:  
+Command:  
+Command:  
+Command:  
+Command:  
+Command:  
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _mtext 
+Current text style:  "Standard"  Text height:  2.5  Annotative:  No
+Specify first corner: 
+Specify opposite corner or [Height/Justify/Line spacing/Rotation/Style/Width/Columns]: 
+
+Command: 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 MTEXT GROUP 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Automatic save to C:\Users\MARTIJ~1\AppData\Local\Temp\Deel_1_1_19899_ec5ebe3c.sv$ ...
+
+Command: 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.VIEWCUBEACTION 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.3DPAN2 INTELLIZOOM '.3DPAN2 INTELLIZOOM '.3DPAN2 '.3DPAN2 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 MTEDIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 MTEDIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 MTEDIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 PASTECLIP GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.3DPAN2 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 MTEDIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 MTEDIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 MTEDIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 COPYCLIP GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM INTELLIZOOM INTELLIZOOM INTELLIZOOM INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 MTEDIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 MTEDIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 PASTECLIP GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 PASTECLIP GROUP 
+Command:  
+Command: 
+Command: 
+Command: 
+Command: _copyclip 1 found
+
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _pasteclip Duplicate definition of block _DotSmall  ignored.
+Duplicate definition of block _ArchTick  ignored.
+Substituting [simplex.shx] for [Freehand575 BT].
+Specify insertion point: 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 PASTECLIP GROUP 
+Command:  <Ortho on> 
+Command: 
+Command: 
+Command: _pasteclip Duplicate definition of block _DotSmall  ignored.
+Duplicate definition of block _ArchTick  ignored.
+Substituting [simplex.shx] for [Freehand575 BT].
+Specify insertion point: 
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command:  
+Command: 
+Command: 
+
+
+Command: 
+Command:  
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Command: 
+Command: 
+
+
+Command: 
+Command:  
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: _.erase 1 found
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _mtext 
+Current text style:  "Standard"  Text height:  2.5  Annotative:  No
+Specify first corner: 
+Checking 1035 intersections... 
+Specify opposite corner or [Height/Justify/Line spacing/Rotation/Style/Width/Columns]: 
+
+Command: 
+Command: *Cancel*
+
+Command:  <Polar on> 
+Command: 
+Command: 
+Command: 
+Command: *Cancel*
+
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: *Cancel*
+
+Command:  <Ortho on> 
+Command:  
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]:  
+Resuming GRIPTOOL_EDIT command.
+
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Checking 1225 intersections... 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Checking 903 intersections... 
+Command: *Cancel*
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: 
+Command: _copyclip 1 found
+
+Command: *Cancel*
+
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _pasteclip Duplicate definition of block _DotSmall  ignored.
+Duplicate definition of block _ArchTick  ignored.
+Substituting [simplex.shx] for [Freehand575 BT].
+Specify insertion point: 
+Checking 741 intersections... 
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command: 
+Command: ALIGN
+
+Specify first source point: 
+Specify first destination point: *Cancel*
+
+Command: 
+Command:  
+Command: ALIGN
+
+Specify first source point: *Cancel*
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.3DPAN2 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM '.3DPAN2 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.3DPAN2 '.3DPAN2 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.ACGZDRAGACTION 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 PASTECLIP GROUP 
+Command: 
+Command: 
+Command: _mtext 
+Current text style:  "Standard"  Text height:  2.5  Annotative:  No
+Specify first corner: 
+Too many objects selected for INTERSECT
+
+Specify opposite corner or [Height/Justify/Line spacing/Rotation/Style/Width/Columns]: 
+
+Command:  
+Command: 
+Command: 
+Command: _mtext 
+Current text style:  "Standard"  Text height:  2.5  Annotative:  No
+Specify first corner: 
+Too many objects selected for INTERSECT
+
+Specify opposite corner or [Height/Justify/Line spacing/Rotation/Style/Width/Columns]: 
+Too many objects selected for INTERSECT
+
+
+Command:  
+Command: 
+Command: 
+Command: _mtext 
+Current text style:  "Standard"  Text height:  2.5  Annotative:  No
+Specify first corner: 
+Too many objects selected for INTERSECT
+
+Specify opposite corner or [Height/Justify/Line spacing/Rotation/Style/Width/Columns]: 
+Too many objects selected for INTERSECT
+
+
+Command: 
+Command: 
+Command: _mtext 
+Current text style:  "Standard"  Text height:  2.5  Annotative:  No
+Specify first corner: 
+Too many objects selected for INTERSECT
+
+Specify opposite corner or [Height/Justify/Line spacing/Rotation/Style/Width/Columns]: 
+Too many objects selected for INTERSECT
+
+
+Command: 
+Command: 
+Command: _mtext 
+Current text style:  "Standard"  Text height:  2.5  Annotative:  No
+Specify first corner: 
+Too many objects selected for INTERSECT
+
+Specify opposite corner or [Height/Justify/Line spacing/Rotation/Style/Width/Columns]: 
+Too many objects selected for INTERSECT
+
+
+Command: 
+Command: 
+Command: _mtext 
+Current text style:  "Standard"  Text height:  2.5  Annotative:  No
+Specify first corner: 
+Too many objects selected for INTERSECT
+
+Specify opposite corner or [Height/Justify/Line spacing/Rotation/Style/Width/Columns]: 
+Too many objects selected for INTERSECT
+
+
+Command: 
+Command: 
+Command: _mtext 
+Current text style:  "Standard"  Text height:  2.5  Annotative:  No
+Specify first corner: 
+Too many objects selected for INTERSECT
+
+Specify opposite corner or [Height/Justify/Line spacing/Rotation/Style/Width/Columns]: 
+Too many objects selected for INTERSECT
+
+
+Command:  
+Command:  
+Command:  
+Command:  
+Command:  
+Command:  
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]:  
+Resuming GRIPTOOL_EDIT command.
+
+Specify move point or [Base point/Copy/Undo/eXit]: *Cancel*
+
+Command: *Cancel*
+
+Command: 
+Command:  
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: *Cancel*
+
+Command:  
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: *Cancel*
+
+Automatic save to C:\Users\MARTIJ~1\AppData\Local\Temp\Deel_1_1_19899_ec5ebe3c.sv$ ...
+
+Command: 
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: *Cancel*
+
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: *Cancel*
+
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Too many objects selected for INTERSECT
+
+Command: *Cancel*
+
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: 
+Command: *Cancel*
+
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Checking 703 intersections... 
+Command: *Cancel*
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command: 
+Command: 
+Command: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Checking 1081 intersections... 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: _solidedit 
+Solids editing automatic checking:  SOLIDCHECK=1
+Enter a solids editing option [Face/Edge/Body/Undo/eXit] <eXit>: _face 
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: _extrude 
+Select faces or [Undo/Remove]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: 
+A 3D solid must be selected.
+1 face found.
+
+Select faces or [Undo/Remove/ALL]: *Cancel*
+
+Command: 
+Command: 
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+
+Select objects to extrude or [MOde]: _MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Select objects to extrude or [MOde]: 1 found
+
+Select objects to extrude or [MOde]: 1 found, 2 total
+
+Select objects to extrude or [MOde]: 1 found, 3 total
+
+Select objects to extrude or [MOde]: 1 found, 4 total
+
+Select objects to extrude or [MOde]: 1 found, 5 total
+
+Select objects to extrude or [MOde]: 1 found, 6 total
+
+Select objects to extrude or [MOde]: 1 found, 7 total
+
+Select objects to extrude or [MOde]: 1 found, 8 total
+
+Select objects to extrude or [MOde]: 1 found, 9 total
+
+Select objects to extrude or [MOde]: 
+
+Cannot sweep or extrude an object of this type.
+Cannot sweep or extrude an object of this type.
+Cannot sweep or extrude an object of this type.
+Cannot sweep or extrude an object of this type.
+Cannot sweep or extrude an object of this type.
+Cannot sweep or extrude an object of this type.
+Cannot sweep or extrude an object of this type.
+Cannot sweep or extrude an object of this type.
+Cannot sweep or extrude an object of this type.
+9 objects removed from selection set.
+
+Select objects to extrude or [MOde]: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming EXTRUDE command.
+
+Select objects to extrude or [MOde]: 1 found
+
+Select objects to extrude or [MOde]: 1 found, 2 total
+
+Select objects to extrude or [MOde]: 1 found, 3 total
+
+Select objects to extrude or [MOde]: 1 found, 4 total
+
+Select objects to extrude or [MOde]: 1 found, 5 total
+
+Select objects to extrude or [MOde]: 1 found, 6 total
+
+Select objects to extrude or [MOde]: 1 found, 7 total
+
+Select objects to extrude or [MOde]: 1 found, 8 total
+
+Select objects to extrude or [MOde]: 1 found, 9 total
+
+Select objects to extrude or [MOde]: 
+
+Cannot sweep or extrude an object of this type.
+Cannot sweep or extrude an object of this type.
+Cannot sweep or extrude an object of this type.
+Cannot sweep or extrude an object of this type.
+Cannot sweep or extrude an object of this type.
+Cannot sweep or extrude an object of this type.
+Cannot sweep or extrude an object of this type.
+Cannot sweep or extrude an object of this type.
+Cannot sweep or extrude an object of this type.
+9 objects removed from selection set.
+
+Select objects to extrude or [MOde]:  
+Resuming EXTRUDE command.
+
+Select objects to extrude or [MOde]:  
+Resuming EXTRUDE command.
+
+Select objects to extrude or [MOde]: *Cancel*
+
+Command: *Cancel*
+
+Command: TXTEXP
+
+Initializing...
+Select text to be EXPLODED: 
+Select objects: 1 found
+
+Select objects: 1 found, 2 total
+
+Select objects: 1 found, 3 total
+
+Select objects: 1 found, 4 total
+
+Select objects: 1 found, 5 total
+
+Select objects: 1 found, 6 total
+
+Select objects: 1 found, 7 total
+
+Select objects: 1 found, 8 total
+
+Select objects: 1 found, 9 total
+
+Select objects: 
+
+Nested items = Off    Orphaned data = Off
+9 text object(s) have been exploded to lines.
+The line objects have been placed on layer 0.
+
+Command:  
+Command:  
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.3DPAN2 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 GROUP (Lisp Expression) (Lisp Expression) (Lisp Expression) (Lisp Expression) (Lisp Expression) (Lisp Expression) (Lisp Expression) (Lisp Expression) 
+Command:  
+Command:  
+Command:  
+Command:  
+Command:  
+Command: TXTEXP
+
+Select text to be EXPLODED: 
+Select objects: 1 found
+
+Select objects: 
+
+Nested items = Off    Orphaned data = Off
+1 text object(s) have been exploded to lines.
+The line objects have been placed on layer 0.
+Command: 
+Command: 
+Command: 
+Command: _hideobjects 1 found
+
+Command: 
+Command: 
+Command: 
+Command: _hideobjects 1 found
+
+Command: 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: *Cancel*
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: 
+Command: *Cancel*
+
+Command:  
+Window Lasso  Press Spacebar to cycle options
+Window Lasso  Press Spacebar to cycle options
+Command: *Cancel*
+
+Command: TXTEXP
+
+View needs to be in plan (0 0 1).
+Window Lasso  Press Spacebar to cycle options
+Command: 
+Command: 
+Command: 
+TXTEXP
+
+View needs to be in plan (0 0 1).
+Command:  
+Command:  
+Command:  
+Command: TXTEXP
+
+Select text to be EXPLODED: 
+Window Lasso  Press Spacebar to cycle options8 found
+
+Select objects: 
+
+Nested items = Off    Orphaned data = Off
+8 text object(s) have been exploded to lines.
+The line objects have been placed on layer 0.
+Command: 
+Command: 
+Command: _union 
+Window Lasso  Press Spacebar to cycle options24 found
+
+Select objects: 
+
+At least 2 solids, surfaces, or coplanar regions must be selected.
+
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+
+Select objects to extrude or [MOde]: _MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Window Lasso  Press Spacebar to cycle options24 found
+
+Select objects to extrude or [MOde]: 
+
+Cannot sweep or extrude a self-intersecting curve.
+1 object removed from selection set.
+
+Specify height of extrusion or [Direction/Path/Taper angle]: 5
+
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _union 
+Window Lasso  Press Spacebar to cycle options24 found
+
+Select objects: 
+
+
+Command: 
+Command: 
+Command: 
+
+
+Command: 
+Command:  
+Command: 
+Command: 
+Command: 
+
+
+Command: 
+Command:  
+Command:  
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM '.3DPAN2 '.3DPAN2 INTELLIZOOM INTELLIZOOM INTELLIZOOM INTELLIZOOM INTELLIZOOM '.3DPAN2 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 DROPGEOM GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 DROPGEOM GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 UNION GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.VIEWCUBEACTION 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 EXTRUDE GROUP 
+Command:  
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+
+Select objects to extrude or [MOde]: _MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Window Lasso  Press Spacebar to cycle options24 found
+
+Select objects to extrude or [MOde]: 
+
+Cannot sweep or extrude a self-intersecting curve.
+1 object removed from selection set.
+
+Specify height of extrusion or [Direction/Path/Taper angle] <5.000>: 1
+
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+
+Select objects to extrude or [MOde]: _MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Select objects to extrude or [MOde]: 1 found
+
+Select objects to extrude or [MOde]: 
+
+Cannot sweep or extrude a self-intersecting curve.
+1 object removed from selection set.
+
+Select objects to extrude or [MOde]:  
+Resuming EXTRUDE command.
+
+Select objects to extrude or [MOde]: 1 found
+
+Select objects to extrude or [MOde]: *Cancel*
+*Cancel*
+
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 EXTRUDE GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 EXTRUDE GROUP 
+Command:  
+Crossing Lasso  Press Spacebar to cycle options
+Command: 
+Command: 
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+2 found
+_MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Cannot sweep or extrude a self-intersecting curve.
+1 object removed from selection set.
+
+Specify height of extrusion or [Direction/Path/Taper angle] <1.000>: 
+
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 EXTRUDE GROUP 
+Command: 
+Command: 
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+
+Select objects to extrude or [MOde]: _MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Window Lasso  Press Spacebar to cycle options2 found
+
+Select objects to extrude or [MOde]: 1 found (1 duplicate), 2 total
+
+Select objects to extrude or [MOde]: 1 found (1 duplicate), 2 total
+
+Select objects to extrude or [MOde]: 1 found (1 duplicate), 2 total
+
+Select objects to extrude or [MOde]: 
+
+Cannot sweep or extrude a self-intersecting curve.
+1 object removed from selection set.
+
+Specify height of extrusion or [Direction/Path/Taper angle] <1.383>: *Cancel*
+*Cancel*
+
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+
+Select objects to extrude or [MOde]: _MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Select objects to extrude or [MOde]: 1 found
+
+Select objects to extrude or [MOde]: 
+
+Cannot sweep or extrude a self-intersecting curve.
+1 object removed from selection set.
+
+Select objects to extrude or [MOde]: 1 found
+
+Select objects to extrude or [MOde]: 1 found (1 duplicate), 1 total
+
+Select objects to extrude or [MOde]: 1 found (1 duplicate), 1 total
+
+Select objects to extrude or [MOde]: 1 found (1 duplicate), 1 total
+
+Select objects to extrude or [MOde]: *Cancel*
+
+Command: 
+Command: 
+Command: 
+
+
+Command: 
+Command:  
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command:  
+Command: 
+** STRETCH **
+Specify stretch point:*Cancel*
+
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Automatic save to C:\Users\MARTIJ~1\AppData\Local\Temp\Deel_1_1_19899_ec5ebe3c.sv$ ...
+
+Command: 
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: *Cancel*
+
+Command:  
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: *Cancel*
+
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+
+Select objects to extrude or [MOde]: _MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Select objects to extrude or [MOde]: 1 found
+
+Select objects to extrude or [MOde]: 
+
+Specify height of extrusion or [Direction/Path/Taper angle] <1.383>: *Cancel*
+
+Command: 
+Command:  
+Command:  
+Command: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command:  
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+
+Select objects to extrude or [MOde]: _MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Window Lasso  Press Spacebar to cycle options24 found
+
+Select objects to extrude or [MOde]: 
+
+Specify height of extrusion or [Direction/Path/Taper angle] <1.383>: 1
+
+
+Command:  
+Command: 
+Command: 
+Command: _union 
+Window Lasso  Press Spacebar to cycle options24 found
+
+Select objects: 
+
+
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _unisolateobjects 
+2 object(s) unisolated.
+
+Command:  
+Command:  
+Command:  Tab Index <0>: 
+Command:  
+Command:  
+Command: 
+Command:  
+Command:  
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+Command: 
+Command: 
+Command: _move 1 found
+
+Specify base point or [Displacement] <Displacement>: 
+Specify second point or <use first point as displacement>: *Cancel*
+
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _move 
+Select objects: 1 found
+
+Select objects: *Cancel*
+
+Command: 
+Command: _move 
+Select objects: 1 found
+
+Select objects: 
+
+Specify base point or [Displacement] <Displacement>: 
+Too many objects selected for INTERSECT
+
+Specify second point or <use first point as displacement>:  
+Resuming MOVE command.
+
+Specify second point or <use first point as displacement>: *Cancel*
+
+Command: 
+Command: 
+Command: 
+Command: _move 1 found
+
+Specify base point or [Displacement] <Displacement>: 
+Specify second point or <use first point as displacement>:  
+Resuming MOVE command.
+
+Specify second point or <use first point as displacement>: 
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: *Cancel*
+
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command:  
+Command: *Cancel*
+
+Command: *Cancel*
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command:  
+Command: ALIGN
+
+Specify first source point: 
+Checking 666 intersections... 
+Specify first destination point: 
+Checking 820 intersections... 
+Specify second source point: 
+
+Command:  
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+Command: 
+Command: 
+Command: _subtract Select solids, surfaces, and regions to subtract from ..
+
+Select objects: 1 found
+
+Select objects: 
+Select solids, surfaces, and regions to subtract ..
+Select objects:  
+Resuming SUBTRACT command.
+
+Select objects:  
+Resuming SUBTRACT command.
+
+Select objects:  
+Resuming SUBTRACT command.
+
+Select objects: 1 found
+
+Select objects: 
+
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Automatic save to C:\Users\MARTIJ~1\AppData\Local\Temp\Deel_1_1_19899_ec5ebe3c.sv$ ...
+
+Command: 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _mtext 
+Current text style:  "Standard"  Text height:  2.5  Annotative:  No
+Specify first corner: 
+Specify opposite corner or [Height/Justify/Line spacing/Rotation/Style/Width/Columns]:  
+Resuming MTEXT command.
+Specify opposite corner or [Height/Justify/Line spacing/Rotation/Style/Width/Columns]: *Cancel*
+
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _mtext 
+Current text style:  "Standard"  Text height:  2.5  Annotative:  No
+Specify first corner: 
+Specify opposite corner or [Height/Justify/Line spacing/Rotation/Style/Width/Columns]: 
+
+Window Lasso  Press Spacebar to cycle options
+Crossing Lasso  Press Spacebar to cycle options
+Command: 
+Command: 
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+1 found
+_MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Cannot sweep or extrude an object of this type.
+1 object removed from selection set.
+
+Select objects to extrude or [MOde]: 1 found
+
+Select objects to extrude or [MOde]: 
+
+Cannot sweep or extrude an object of this type.
+1 object removed from selection set.
+
+Select objects to extrude or [MOde]: 1 found
+
+Select objects to extrude or [MOde]: 
+
+Cannot sweep or extrude an object of this type.
+1 object removed from selection set.
+
+Window Lasso  Press Spacebar to cycle options1 found
+
+Select objects to extrude or [MOde]: 
+
+Cannot sweep or extrude an object of this type.
+1 object removed from selection set.
+
+Select objects to extrude or [MOde]: *Cancel*
+*Cancel*
+
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+
+Select objects to extrude or [MOde]: _MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Select objects to extrude or [MOde]: 1 found
+
+Select objects to extrude or [MOde]: 
+
+Cannot sweep or extrude an object of this type.
+1 object removed from selection set.
+
+Select objects to extrude or [MOde]: *Cancel*
+*Cancel*
+
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+
+Select objects to extrude or [MOde]: _MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Window Lasso  Press Spacebar to cycle options1 found
+
+Select objects to extrude or [MOde]: 
+
+Cannot sweep or extrude an object of this type.
+1 object removed from selection set.
+
+Select objects to extrude or [MOde]: 1 found
+
+Select objects to extrude or [MOde]: 1 found (1 duplicate), 1 total
+
+Select objects to extrude or [MOde]:  
+Resuming EXTRUDE command.
+
+Select objects to extrude or [MOde]:  
+Resuming EXTRUDE command.
+
+Select objects to extrude or [MOde]: 
+
+Cannot sweep or extrude an object of this type.
+1 object removed from selection set.
+
+Select objects to extrude or [MOde]: Specify opposite corner: 1 found
+
+Select objects to extrude or [MOde]: 
+
+Cannot sweep or extrude an object of this type.
+1 object removed from selection set.
+
+Select objects to extrude or [MOde]: 1 found
+
+Select objects to extrude or [MOde]: 
+
+Cannot sweep or extrude an object of this type.
+1 object removed from selection set.
+
+Select objects to extrude or [MOde]: 1 found
+
+Select objects to extrude or [MOde]: 1 found (1 duplicate), 1 total
+
+Select objects to extrude or [MOde]: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming EXTRUDE command.
+
+Select objects to extrude or [MOde]:  
+Resuming EXTRUDE command.
+
+Select objects to extrude or [MOde]:  
+Resuming EXTRUDE command.
+
+Select objects to extrude or [MOde]: *Cancel*
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: TXTEXP
+
+Select text to be EXPLODED: 
+Select objects: 1 found
+
+Select objects: 
+
+Nested items = Off    Orphaned data = Off
+1 text object(s) have been exploded to lines.
+The line objects have been placed on layer 0.
+Window Lasso  Press Spacebar to cycle options
+Command:  
+Command: 
+Command: 
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+5 found
+_MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Specify height of extrusion or [Direction/Path/Taper angle] <1.000>: 1
+
+
+Crossing Lasso  Press Spacebar to cycle options
+Command: 
+Command: 
+Command: _union 
+Window Lasso  Press Spacebar to cycle options5 found
+
+Select objects: 
+
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 3DO
+3DORBIT Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 3DO
+3DORBIT Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 3DROTATE
+
+Current positive angle in UCS:  ANGDIR=counterclockwise  ANGBASE=0.00
+1 found
+
+Specify base point: 
+ 
+** ROTATE **
+Specify rotation angle or [Base point/Copy/Undo/Reference/eXit]: 
+Command:  
+Command:  
+ 
+** ROTATE **
+Specify rotation angle or [Base point/Copy/Undo/Reference/eXit]: 
+Command:  
+Command:  
+Command: *Cancel*
+
+Command: 
+Command: ALIGN
+
+Specify first source point: 
+Specify first destination point: 
+Specify second source point: 
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: ALIGN
+
+Specify first source point: 
+Specify first destination point: 
+Specify second source point: 
+
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+Command: *Cancel*
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _subtract Select solids, surfaces, and regions to subtract from ..
+
+Select objects: 1 found
+
+Select objects: 
+Select solids, surfaces, and regions to subtract ..
+Select objects: 1 found
+
+Select objects: 
+
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command:  
+Command:  
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _QSAVE 
+Command:  
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _qnew 
+Command: 
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: 
+QNEW
+
+Command: *Cancel*
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: INSERT
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: 
+Command: 
+Command: _attach 
+Specify insertion point <0,0>: 
+Base image size: Width: 132.275131, Height: 37.566139, Millimeters
+
+Specify scale factor or [Unit] <1>: 
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Window Lasso  Press Spacebar to cycle options
+Window Lasso  Press Spacebar to cycle options
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Command: 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 ATTACH GROUP 
+Command:  
+Command:  
+Command:  
+Command: 
+Automatic save to C:\Users\MARTIJ~1\AppData\Local\Temp\Deel_1_1_9693_58544178.sv$ ...
+
+Command: 
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _attach 
+Specify insertion point <0,0>: 
+Base image size: Width: 132.275131, Height: 37.566139, Millimeters
+
+Specify scale factor or [Unit] <1>: 
+Command:  
+Command:  
+Command:  
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Command:  
+Command:  
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Command: 
+Command: 
+Command: 
+Command: _imageadjust 
+Command:  
+Command:  
+Command:  
+Command:  
+Command:  
+Command:  
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]:  Specify opposite corner or [Fence/WPolygon/CPolygon]:  Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: 
+Command: _line 
+Specify first point:  
+Resuming LINE command.
+
+Specify first point: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: *Cancel*
+
+Automatic save to C:\Users\MARTIJ~1\AppData\Local\Temp\Deel_1_1_9693_58544178.sv$ ...
+
+Command: 
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command:  
+Command: _Options 
+Command: 
+Command:  
+Command: _Options 
+Command: 
+Command:  
+Command:  
+Window Lasso  Press Spacebar to cycle options
+Window Lasso  Press Spacebar to cycle options
+Command:  
+Command: *Cancel*
+
+Crossing Lasso  Press Spacebar to cycle options
+Command: _.erase 4 found
+
+Command: 
+Command: 
+Command: _attach 
+Command: 
+Command: 
+Command: _attach 
+Specify insertion point <0,0>: 
+Base image size: Width: 79.365082, Height: 79.365082, Millimeters
+
+Specify scale factor or [Unit] <1>: 
+Command:  
+Command:  
+Command:  
+Command:  
+Command:  
+Command:  
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: 45
+
+Specify next point or [Close/Undo]: -45
+
+Specify next point or [Close/Undo]: *Cancel*
+
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 LINE GROUP 
+Command:  
+Command: 
+Command: 
+Command: _3dpoly 
+Specify start point of polyline: 
+Specify endpoint of line or [Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _point 
+Current point modes:  PDMODE=34  PDSIZE=0.000
+Specify a point: 
+Command: 
+Command: 
+Command: _point 
+Current point modes:  PDMODE=34  PDSIZE=0.000
+Specify a point: *Cancel*
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 GROUP POINT 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 GROUP POINT 
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: 
+
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Automatic save to C:\Users\MARTIJ~1\AppData\Local\Temp\Deel_1_1_9693_58544178.sv$ ...
+
+Command: 
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]: 1.517
+
+Specify next point or [Close/Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: *Cancel*
+
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:*Cancel*
+
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:*Cancel*
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: *Cancel*
+
+Command: 
+Command: _.erase 1 found
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]: 45
+
+Specify next point or [Close/Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: *Cancel*
+
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:*Cancel*
+
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 Grip Edit 
+Command: 
+Command: _.erase 1 found
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 LINE GROUP 
+Command:  
+Command:  
+Command: 
+Automatic save to C:\Users\MARTIJ~1\AppData\Local\Temp\Deel_1_1_9693_58544178.sv$ ...
+
+Command: 
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 LINE GROUP 
+Command:  
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: *Cancel*
+
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: *Cancel*
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: *Cancel*
+
+Command:  
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _line 
+Specify first point:  
+Resuming LINE command.
+
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]: *Cancel*
+
+Command:  
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point:  
+Resuming LINE command.
+
+Specify first point: 
+Specify next point or [Undo]: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point:  
+Resuming LINE command.
+
+Specify first point: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _line 
+Specify first point:  
+Resuming LINE command.
+
+Specify first point:  
+Resuming LINE command.
+
+Specify first point: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Undo]: *Cancel*
+
+Command:  
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _pline 
+Specify start point: 
+Current line-width is 0.000
+Specify next point or [Arc/Halfwidth/Length/Undo/Width]: *Cancel*
+
+Command: 
+Command: 
+Command: _spline 
+Current settings: Method=Fit   Knots=Chord
+Specify first point or [Method/Knots/Object]: 
+Enter next point or [start Tangency/toLerance]: *Cancel*
+
+Command: 
+Command: 
+Command: _arc 
+Specify start point of arc or [Center]: 
+Specify second point of arc or [Center/End]: 
+Specify end point of arc: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: *Cancel*
+ 
+Resuming LINE command.
+
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Undo]:  
+Resuming LINE command.
+
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: 
+Specify next point or [Close/Undo]: 
+Specify next point or [Close/Undo]:  
+Resuming LINE command.
+
+Specify next point or [Close/Undo]: *Cancel*
+
+Command: *Cancel*
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Command: *Cancel*
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Window Lasso  Press Spacebar to cycle options
+Window Lasso  Press Spacebar to cycle options
+Crossing Lasso  Press Spacebar to cycle options
+Command: *Cancel*
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Crossing Lasso  Press Spacebar to cycle options
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+Command: *Cancel*
+
+Command: 
+Command: *Cancel*
+
+Command:  
+Command:  
+Command:  
+Command:  
+Crossing Lasso  Press Spacebar to cycle options
+Command: *Cancel*
+
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Automatic save to C:\Users\MARTIJ~1\AppData\Local\Temp\Deel_1_1_9693_58544178.sv$ ...
+
+Command: 
+Command:  
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command:  
+Command: *Cancel*
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command:  
+Command:  
+Command: *Cancel*
+
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: *Cancel*
+
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: *Cancel*
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Command: *Cancel*
+
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: *Cancel*
+
+Command:  
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: *Cancel*
+
+Command:  
+Command: 
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command:  
+Command: *Cancel*
+
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command:  
+Command:  
+Command:  
+Command:  
+Command:  
+Command: 
+Command: 
+LINE
+
+Specify first point: *Cancel*
+
+Command: 
+Command: _.erase 1 found
+
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: *Cancel*
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: *Cancel*
+
+Command:  
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: *Cancel*
+
+Command: 
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command:  
+Command: *Cancel*
+
+Command: 
+Command:  
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: *Cancel*
+
+Command:  
+Command: 
+Command:  
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command:  
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: *Cancel*
+
+Command:  
+Command:  
+Command:  
+Command:  
+Command: 
+Command:  
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: *Cancel*
+
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: *Cancel*
+
+Command:  
+Command: 
+Command: _.erase 1 found
+
+Command:  
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: *Cancel*
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Command: 
+Command: _.erase 1 found
+
+Command:  
+Command: 
+Command: _.erase 1 found
+
+Command:  
+Command: 
+Command: _.erase 1 found
+
+Command:  
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: *Cancel*
+
+Command:  
+Command: *Cancel*
+
+Command:  
+Command: *Cancel*
+
+Command:  
+Window Lasso  Press Spacebar to cycle options
+Command:  
+Command: 
+Command: 
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+55 found
+_MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Specify height of extrusion or [Direction/Path/Taper angle] <1.000>: 1
+
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 EXTRUDE GROUP 
+Command:  
+Command: 
+Command: 
+Command: _Polysolid Height = 4.000, Width = 0.250, Justification = Center
+Specify start point or [Object/Height/Width/Justify] <Object>: 
+Specify next point or [Arc/Undo]: 
+Specify next point or [Arc/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]:  
+Resuming POLYSOLID command.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]:  
+Resuming POLYSOLID command.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]:  
+Resuming POLYSOLID command.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Points are coincident.
+
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.3DPAN2 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 POLYSOLID GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.3DPAN2 '.3DPAN2 INTELLIZOOM INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 LINE GROUP 
+Command: 
+Command: 
+Command: _.mredo 
+Enter number of actions or [All/Last]: 1 GROUP LINE 
+Command: 
+Command: 
+Command: _.mredo 
+Enter number of actions or [All/Last]: 1 INTELLIZOOM INTELLIZOOM '.3DPAN2 '.3DPAN2 
+Command: 
+Command: 
+Command: _.mredo 
+Enter number of actions or [All/Last]: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.mredo 
+Enter number of actions or [All/Last]: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.mredo 
+Enter number of actions or [All/Last]: 1 GROUP POLYSOLID 
+Command: 
+Command: 
+Command: _.mredo 
+Enter number of actions or [All/Last]: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.mredo 
+Enter number of actions or [All/Last]: 1 '.3DPAN2 
+Everything has been redone
+
+Command:  
+Command: 
+Command: 
+Command: _Polysolid Height = 4.000, Width = 0.250, Justification = Center
+Specify start point or [Object/Height/Width/Justify] <Object>: 
+Specify next point or [Arc/Undo]: 
+Specify next point or [Arc/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: *Cancel*
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: _Polysolid Height = 4.000, Width = 0.250, Justification = Center
+Specify start point or [Object/Height/Width/Justify] <Object>:  
+Resuming POLYSOLID command.
+Specify start point or [Object/Height/Width/Justify] <Object>: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+
+Select objects to extrude or [MOde]: _MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Select objects to extrude or [MOde]: *Cancel*
+
+Command: 
+Command: 
+Command: _solidedit 
+Solids editing automatic checking:  SOLIDCHECK=1
+Enter a solids editing option [Face/Edge/Body/Undo/eXit] <eXit>: _face 
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: _extrude 
+Select faces or [Undo/Remove]: 
+No solids detected.
+
+Select faces or [Undo/Remove]: 
+A 3D solid must be selected.
+
+No solids detected.
+
+Select faces or [Undo/Remove]: 
+A 3D solid must be selected.
+
+No solids detected.
+
+Select faces or [Undo/Remove]: 
+A 3D solid must be selected.
+
+No solids detected.
+
+Select faces or [Undo/Remove]: *Cancel*
+
+Command: 
+Command: 
+Command: _Polysolid Height = 4.000, Width = 0.250, Justification = Center
+Specify start point or [Object/Height/Width/Justify] <Object>: 
+Specify next point or [Arc/Undo]: 
+Specify next point or [Arc/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: _Polysolid Height = 4.000, Width = 0.250, Justification = Center
+Specify start point or [Object/Height/Width/Justify] <Object>: 
+Specify next point or [Arc/Undo]: 
+Specify next point or [Arc/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Points are coincident.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: 
+
+Invalid point.  Solid cannot intersect itself.
+
+Specify next point or [Arc/Close/Undo]: *Cancel*
+
+Command:  
+Command: 
+Automatic save to C:\Users\MARTIJ~1\AppData\Local\Temp\Deel_1_1_9693_58544178.sv$ ...
+
+Command: 
+Command: 
+Command: 
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+3 found
+_MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Specify height of extrusion or [Direction/Path/Taper angle] <1.000>: 10
+
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _presspull 
+Select object or bounded area: 
+Resuming PRESSPULL command.
+
+Select object or bounded area:
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 PRESSPULL GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 EXTRUDE GROUP 
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _presspull 
+Select object or bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:1
+
+1 extrusion(s) created
+Select object or bounded area:
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming PRESSPULL command.
+
+Select object or bounded area:
+Command: 
+Command: _presspull 
+Select object or bounded area: 
+Resuming PRESSPULL command.
+
+Select object or bounded area:
+Command:  
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 135
+
+Specify next point or [Undo]: *Cancel*
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 LINE GROUP 
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: *Cancel*
+
+Command: 
+Command: _.erase 1 found
+
+Command: 
+Command: 
+Command: _line 
+Specify first point: 
+Specify next point or [Undo]: 
+Specify next point or [Undo]: *Cancel*
+
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: *Cancel*
+
+Command: 
+Command: 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]:
+Command: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _presspull 
+Select object or bounded area:
+Click a face, curve, or inside a bounded area
+Select object or bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:*Cancel*
+
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: _presspull 
+Select object or bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:*Cancel*
+
+Command: 
+Command: 
+Command: _presspull 
+Select object or bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:1
+
+1 extrusion(s) created
+Select object or bounded area:
+Command: 
+Command: _presspull 
+Select object or bounded area:
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: *Cancel*
+
+Command: 
+ 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]: 
+Command: *Cancel*
+
+Command: 
+Command: 
+ 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]: 
+Command: 
+ 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]: 
+Command: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: _presspull 
+Select object or bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:
+1 extrusion(s) created
+Select object or bounded area: 
+Resuming PRESSPULL command.
+
+Select object or bounded area:
+Command: 
+Command: _presspull 
+Select object or bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:
+1 extrusion(s) created
+Select object or bounded area: 
+Resuming PRESSPULL command.
+
+Select object or bounded area: 
+Resuming PRESSPULL command.
+
+Select object or bounded area:
+Command: 
+Command: _presspull 
+Select object or bounded area:Select solids, surfaces, and regions to subtract from ..
+Subtracting inner regions...
+
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:1
+
+1 extrusion(s) created
+Select object or bounded area:
+Command: *Cancel*
+
+Command: 
+Command:  *Cancel*
+
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: 
+
+
+Command: 
+Command:  
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 DROPGEOM GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.ACGZDRAGACTION 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 PRESSPULL GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 PRESSPULL GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 PRESSPULL GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.3DPAN2 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 Grip Edit 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 Grip Edit 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 Grip Edit 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.ACGZDRAGACTION 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 PRESSPULL GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 PRESSPULL GROUP 
+Command: 
+Command: _.erase 1 found
+
+Command: 
+Command: 
+Command: _presspull 
+Select object or bounded area:Select solids, surfaces, and regions to subtract from ..
+Subtracting inner regions...
+
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:1
+
+1 extrusion(s) created
+Select object or bounded area:
+Command:  
+Command:  
+Command:  
+Command:  
+Command: 
+Command: *Cancel*
+
+Command:  
+Command: 
+Command: ALIGN
+
+Specify first source point: 
+Specify first destination point: 
+Checking 703 intersections... 
+Specify second source point: 
+
+Command: *Cancel*
+
+Command: *Cancel*
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command: 
+Command:  
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Too many objects selected for INTERSECT
+
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Checking 703 intersections... 
+Command: *Cancel*
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command:  
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 3
+
+Command: *Cancel*
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command:  
+Command:  
+Crossing Lasso  Press Spacebar to cycle options
+Command: *Cancel*
+
+Crossing Lasso  Press Spacebar to cycle options
+Command:  
+Command: *Cancel*
+
+Command:  
+Command:  
+Command: _Find
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: 
+Command: _STYLE 
+Command: 
+Command: 
+Command: _mtext 
+Current text style:  "style1"  Text height:  2.5  Annotative:  No
+Specify first corner: 
+Specify opposite corner or [Height/Justify/Line spacing/Rotation/Style/Width/Columns]: 
+
+Automatic save to C:\Users\MARTIJ~1\AppData\Local\Temp\Deel_1_1_9693_58544178.sv$ ...
+
+Command: 
+Command:  
+Crossing Lasso  Press Spacebar to cycle options
+Command:  
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: *Cancel*
+
+Command:  
+Command:  
+Command: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Crossing Lasso  Press Spacebar to cycle options
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Window Lasso  Press Spacebar to cycle options
+Command:  
+Command:  
+Command:  
+Command:  
+Command:  
+Command: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Command: 
+Command: 
+Command: _mtedit 
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Too many objects selected for INTERSECT
+
+Command:  
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Too many objects selected for INTERSECT
+
+Command:  
+Command:  
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 3
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.ACGZDRAGACTION 
+Command:  
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: 
+Command: 
+Command: _hideobjects 2 found
+
+Command:  
+Crossing Lasso  Press Spacebar to cycle options
+Command: TXTEXP
+
+Select text to be EXPLODED: 1 found
+
+Nested items = Off    Orphaned data = Off
+1 text object(s) have been exploded to lines.
+The line objects have been placed on layer 0.
+Crossing Lasso  Press Spacebar to cycle options
+Command: 
+Command: 
+Command: _extrude 
+Current wire frame density:  ISOLINES=20, Closed profiles creation mode = Solid
+40 found
+_MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+
+Specify height of extrusion or [Direction/Path/Taper angle] <1.000>: 1
+
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command: 
+Command: *Cancel*
+
+Command:  
+Crossing Lasso  Press Spacebar to cycle options
+Command: 
+Command: 
+Command: _union 
+Select objects: *Cancel*
+
+Command: 
+Command: _union 
+Window Lasso  Press Spacebar to cycle options40 found
+
+Select objects: 
+
+
+Command:  
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+
+Command: ALIGN
+
+Select objects: 1 found
+
+Select objects: 1 found, 2 total
+
+Select objects: 
+
+Specify first source point: 
+Specify first destination point: 
+Specify second source point: 
+
+Command:  
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command:  
+Command:  
+Command: 
+Command: ALIGN
+
+Specify first source point: 
+Specify first destination point: 
+Specify second source point: 
+
+Command:  
+Command:  
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: *Cancel*
+
+Command: 
+Command: ALIGN
+
+Specify first source point: 
+Checking 666 intersections... 
+Specify first destination point: 
+Specify second source point: 
+
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: _unisolateobjects 
+2 object(s) unisolated.
+
+Command:  
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: 
+Command: _subtract Select solids, surfaces, and regions to subtract from ..
+
+Select objects: 1 found
+
+Select objects: 
+Select solids, surfaces, and regions to subtract ..
+Select objects: 1 found
+
+Select objects: 1 found, 2 total
+
+Select objects: 
+
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 SUBTRACT GROUP 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: 
+Command: 
+Command: _union 
+Select objects: 1 found
+
+Select objects: 1 found, 2 total
+
+Select objects: 
+
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: ALIGN
+
+Specify first source point: 
+Specify first destination point: 
+Checking 1176 intersections... 
+Specify second source point: 
+
+Command: *Cancel*
+
+Command:  
+Command: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Too many objects selected for INTERSECT
+
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Too many objects selected for INTERSECT
+
+Command:  
+Command: *Cancel*
+
+Command:  
+Command:  
+Crossing Lasso  Press Spacebar to cycle options
+Command: 
+ 
+** STRETCH **
+Specify stretch point or [Base point/Copy/Undo/eXit]: *Cancel*
+
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: 
+Command: 
+Command: 
+
+
+Command: 
+Command:  
+Command:  
+Crossing Lasso  Press Spacebar to cycle options
+Command: *Cancel*
+
+Crossing Lasso  Press Spacebar to cycle options
+Command:  
+Command: 
+Command: 
+
+
+Command: 
+Command:  
+Command: 
+Command: *Cancel*
+
+Command:  
+Crossing Lasso  Press Spacebar to cycle options
+Window Lasso  Press Spacebar to cycle options
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+ 
+** MOVE **
+Specify move point or [Base point/Copy/Undo/eXit]: 
+Command:  
+Command: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: _QSAVE 
+Command: 
+Command: 
+Command: _QSAVE 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command:  
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _QSAVE 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: 
+Command: _hideobjects 1 found
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.3DPAN2 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 INTELLIZOOM 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 HIDEOBJECTS GROUP 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command:  
+Command:  
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _subtract Select solids, surfaces, and regions to subtract from ..
+
+Select objects: 1 found
+
+Select objects: *Cancel*
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command: 
+Command:  
+Command: *Cancel*
+
+Command:  
+Command:  <Polar on> 
+Command: 
+Command: *Cancel*
+
+Command:  
+Command: 
+Command:  
+Command:  
+Command: *Cancel*
+
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _subtract Select solids, surfaces, and regions to subtract from ..
+
+Select objects: 1 found
+
+Select objects: 
+Select solids, surfaces, and regions to subtract ..
+Select objects: 1 found
+
+Select objects: 
+
+
+Command:  
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _QSAVE 
+Command: 
+Command:  
+Command:  
+Command: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: 
+Command: _hideobjects 1 found
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _QSAVE 
+Command:  
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _unisolateobjects 
+1 object(s) unisolated.
+
+Command:  
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 13.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: R
+
+Enter fillet radius <13.000>: 2
+
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: *Cancel*
+
+2 edge(s) selected for fillet.
+
+No fillet to be computed.
+
+Command: *Cancel*
+
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 13.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: R
+
+Enter fillet radius <13.000>: 2
+
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+2 edge(s) selected for fillet.

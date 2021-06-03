@@ -1,0 +1,136 @@
+[PROJECT]
+Target=9ch_relay_uart.hex
+Processor_Text=PIC18F45K22
+CCSVerions=5.045
+Compiler=PCH
+CCSVersion=5.079d
+[Target Data]
+FileList=9ch_relay_uart.c
+[Directories]
+Include=
+[C:\Users\Kunjal\Desktop\New Folder (2)\New folder\9ch_relay_uart]
+Type=4
+[mru-list]
+1=9ch_relay_uart.c
+
+[ProjectLog]
+Days=4
+D1=12-03-2018
+D1_L=41
+D1_L1=[6794]Project Opened.
+D1_L2=[6880]Project Closed.
+D1_L3=[6969]Project Opened.
+D1_L4=[6977]Started Editing.
+D1_L5=[7279]Stopped Editing.
+D1_L6=[7300]Started Editing.
+D1_L7=[8048]Stopped Editing.
+D1_L8=[8488]Started Editing.
+D1_L9=[10940]Stopped Editing.
+TotalEdit=378
+TotalDebug=0
+D1_E=232
+D1_D=0
+D1_L10=[10940]Project Closed.
+D1_L11=[11041]Project Opened.
+D1_L12=[11050]Started Editing.
+D1_L13=[12161]Stopped Editing.
+D1_L14=[12427]Started Editing.
+D1_L15=[13724]Stopped Editing.
+D1_L16=[13740]Started Editing.
+D1_L17=[14079]Stopped Editing.
+D1_L18=[14557]Started Editing.
+D1_L19=[15343]Stopped Editing.
+D1_L20=[15696]Started Editing.
+D1_L21=[17078]Stopped Editing.
+D1_L22=[17330]Started Editing.
+D1_L23=[20443]Stopped Editing.
+D1_L24=[20488]Started Editing.
+D1_L25=[22074]Stopped Editing.
+D1_L26=[23434]Started Editing.
+D1_L27=[25733]Stopped Editing.
+D1_L28=[25733]Project Closed.
+D1_L29=[25827]Project Opened.
+D1_L30=[25834]Project Closed.
+D1_L31=[25840]Project Opened.
+D1_L32=[25851]Project Closed.
+D1_L33=[42036]Project Opened.
+D1_L34=[43649]Started Editing.
+D1_L35=[44984]Project Closed.
+D1_L36=[45125]Project Opened.
+D1_L37=[45324]Started Editing.
+D1_L38=[45800]Stopped Editing.
+D1_L39=[45938]Project Closed.
+D1_L40=[62529]Project Opened.
+D1_L41=[62547]Project Closed.
+D2=13-03-2018
+D2_L=15
+D2_L1=[18472]Project Opened.
+D2_L2=[18645]Started Editing.
+D2_L3=[22913]Stopped Editing.
+D2_E=74
+D2_D=0
+D2_L4=[22913]Project Closed.
+D2_L5=[23020]Project Opened.
+D2_L6=[23036]Started Editing.
+D2_L7=[23105]Stopped Editing.
+D2_L8=[23105]Project Closed.
+D2_L9=[23106]Project Opened.
+D2_L10=[83548]Project Opened.
+D2_L11=[83656]Project Closed.
+D2_L12=[83725]Project Opened.
+D2_L13=[83779]Started Editing.
+D2_L14=[85705]Stopped Editing.
+D2_L15=[86076]Started Editing.
+D3=14-03-2018
+D3_L=6
+D3_L1=[195]Stopped Editing.
+D3_L2=[6919]Started Editing.
+D3_L3=[7632]Stopped Editing.
+D3_E=38
+D3_D=0
+D3_L4=[8245]Project Closed.
+D3_L5=[8334]Project Opened.
+D3_L6=[8723]Project Closed.
+D4=05-07-2018
+D4_L=10
+D4_L1=[29167]Project Opened.
+D4_L2=[29546]Started Editing.
+D4_L3=[30811]Stopped Editing.
+D4_L4=[30896]Started Editing.
+D4_L5=[31302]Stopped Editing.
+D4_L6=[31538]Started Editing.
+D4_L7=[32383]Stopped Editing.
+D4_L8=[33392]Started Editing.
+D4_L9=[34070]Stopped Editing.
+D4_E=34
+D4_D=0
+D4_L10=[34720]Project Closed.
+
+[Opened Files]
+1=9ch_relay_uart.c
+t1=962
+Count=2
+2=9ch_relay_uart.h
+t2=1
+3=..\..\..\..\..\Program Files (x86)\PICC\Devices\18F45K22.h
+t3=1
+4=..\..\sw\SW001R00 FOR HT1 IR TRY\SW001R00.h
+t4=1
+[9ch_relay_uart.c]
+Type=4
+
+[defines]
+buildcount=84
+
+[Documentation]
+1=C:\Users\Kunjal\Desktop\9 ch relay uart\9ch_relay_uart Notes.txt
+1T=9ch_relay_uart Notes.txt
+1E=
+1W=0
+Count=1
+
+[fileformats]
+forcecoff=0
+[Units]
+Count=1
+1=9ch_relay_uart (main)

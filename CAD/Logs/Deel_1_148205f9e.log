@@ -1,0 +1,159 @@
+[ AutoCAD - Wed Jun 02 12:00:33 2021  ]----------------------------------------
+
+**** System Variable Changed ****
+1 of the monitored system variables has changed from the preferred value. Use SYSVARMONITOR command to view changes.
+
+
+Command: 
+Command: Enter BACKSPACE to interrupt script.
+
+
+Command: 
+Command: _ExtractBlockPreview
+
+Input block names [ Array of JSON string contains block preview information]:"[{"BlockName":"1","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"2","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"3","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"523779104","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"6007513984","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"6007520144","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"6031184512","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"6031184672","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"6031184912","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"6031185072","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"6031190352","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"6031190512","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"6031190672","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"6031190832","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"6032187040","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"6032187200","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"6032187360","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"6032187520","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"},{"BlockName":"6032187920","bkColorRed":245,"bkColorGreen":245,"bkColorBlue":245,"bUseBlackForWhite":"true"}]"
+
+Input preview result folder:"C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252"
+
+Generating thumbnail for block: 1
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\152490F7-1BDF-4638-BEAD-9621BB245156.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\AB2615BC-F406-4E0E-81C7-778408856D9F.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\AB2615BC-F406-4E0E-81C7-778408856D9F.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 2
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\535CCFCC-4C01-4282-987A-280765E176AE.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\CFA588B3-1031-43FF-8FCC-275FF86BC1BF.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\CFA588B3-1031-43FF-8FCC-275FF86BC1BF.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 3
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\74B7088F-AE80-4A0F-841B-81C070E93E81.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\242EC267-856C-4F32-A05D-EC088C793810.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\242EC267-856C-4F32-A05D-EC088C793810.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 523779104
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\822D4B35-E43A-4A48-8753-018AD864FF94.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\C111D5E1-675E-4D5B-93F6-7417C18FB630.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\C111D5E1-675E-4D5B-93F6-7417C18FB630.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 6007513984
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\0C7CA304-A772-4A64-A694-F8B64FC82B7B.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\5A9F595A-6920-4925-8B8F-3CDBF337D323.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\5A9F595A-6920-4925-8B8F-3CDBF337D323.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 6007520144
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\CD649B28-946A-4135-B62D-3A803132193F.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\AA6039DB-C10C-4C5D-A91B-105B7BF8DC89.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\AA6039DB-C10C-4C5D-A91B-105B7BF8DC89.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 6031184512
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\B323B1B4-45F9-4716-AD48-9E4E7DC5F29F.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\0D8A928F-4192-4F2D-BC85-CA3A139DE70A.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\0D8A928F-4192-4F2D-BC85-CA3A139DE70A.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 6031184672
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\03C296BA-1724-4FE9-BA0B-DDCE0823B5A6.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\A9E4C26A-785A-40EE-9C70-B58D919930AA.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\A9E4C26A-785A-40EE-9C70-B58D919930AA.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 6031184912
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\52B0E6D2-B60B-4D55-BBF8-D14B0C6296B8.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\BD17A6B9-C847-4063-A595-2CFE4F1F994F.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\BD17A6B9-C847-4063-A595-2CFE4F1F994F.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 6031185072
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\062A5CF7-685E-45F7-8652-485DBAB9B017.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\C19D61A2-1185-416C-816B-2B79841DB176.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\C19D61A2-1185-416C-816B-2B79841DB176.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 6031190352
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\70FB2BAF-B33F-4CCC-9FD7-4FDA8BDA2FD2.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\EC2D6263-3583-4FF7-A898-B1EB73FA45E1.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\EC2D6263-3583-4FF7-A898-B1EB73FA45E1.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 6031190512
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\C894CE3D-5D31-4FB5-83C1-B49E3B8782AD.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\3AC3F917-EB07-4C68-ABC3-703ED63A040C.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\3AC3F917-EB07-4C68-ABC3-703ED63A040C.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 6031190672
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\82D1D252-7495-4B53-81F0-B8548E9BBC14.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\72DE8874-B7C2-484C-8FEE-8B0E66D2A50D.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\72DE8874-B7C2-484C-8FEE-8B0E66D2A50D.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 6031190832
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\01752A0D-2D6E-4B7E-A1C2-CA8149FF34DF.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\8707F422-90E9-4AD5-9561-1398A267C930.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\8707F422-90E9-4AD5-9561-1398A267C930.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 6032187040
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\81400969-908F-41AC-A24B-928CBC814847.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\BFFA6AF6-0885-4411-8501-2739569D34FF.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\BFFA6AF6-0885-4411-8501-2739569D34FF.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 6032187200
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\E8EA8C36-C719-4874-901A-05060F04E05A.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\9FF06DB0-7F08-4379-9E99-5B28B734A5A4.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\9FF06DB0-7F08-4379-9E99-5B28B734A5A4.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 6032187360
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\AE5232B7-BEE0-40A3-A24F-B328C613D76D.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\CA8709E2-63CC-477E-B157-5BD4BA2C30DE.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\CA8709E2-63CC-477E-B157-5BD4BA2C30DE.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 6032187520
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\C1A3B333-147A-43BE-8FEA-8A838CA6A364.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\06278095-77E7-4C7C-BB58-5DEAC4E47B5C.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\06278095-77E7-4C7C-BB58-5DEAC4E47B5C.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Generating thumbnail for block: 6032187920
+Thumbnail generated: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\2D6B1E4E-203C-4F5E-8401-6B595DB6E349.png
+JSON file created: C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\A8FAEDA1-543E-4418-8F2C-5CE2653AC707.json!ACESAPI:onOutputReady(BlockPreviewPartialJsonStrResult,C:\Users\Martijn Guilliams\AppData\Local\Temp\.das.local.jobsroot\BlockPreviews\13252\results\A8FAEDA1-543E-4418-8F2C-5CE2653AC707.json,True)
+
+Continued from serverContinue.
+
+Continue token:Continue.
+Count of block thumbnails generated: 19
+Command: *Cancel*
+
+Command: *Cancel*
+
+Command: _.quit
+
+Command: 
+**** No System Variable Changed ****

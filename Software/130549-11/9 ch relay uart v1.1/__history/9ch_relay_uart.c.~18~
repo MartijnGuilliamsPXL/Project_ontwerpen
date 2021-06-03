@@ -1,0 +1,1089 @@
+/*
+Project name: 9 Channel Relay Control Board with PC Interface
+MCU used:    PIC18F45K22-E/P
+Description:This relay board has a wide range of applications in the automation sector. Controlling lights, fans and other appliances for home & office automation automatically by PC software and by direct user command settings through UART.
+
+FUNCTION
+   RECEIVE COMMANDS FROM PC VIA UART AND MAKE RESPACTIVE RELAY ON OR OFF AS PER COMMAND
+   DISPLAY & UPDATE THE STATUS OF THE RELAYS ON LCD 
+   READ 9 KEY MATRIX KEYBOARD AND MAKE REAPACTIVE RELAY TOGGLE ITS STATE
+   IF ANY RELAY STATE IS ALTERED BY PRESSING THE KEY, SEND UPDATE RELAY STATUS MESSAGE TO PC VIA UART 
+
+*/
+
+
+
+
+#include <9ch_relay_uart.h>
+
+#include <float.h>
+#include <stddef.h>
+#include <stdlib.h>
+#include <stdlibm.h>
+#include <string.h>
+#include <stdio.h>
+#include <stdint.h>
+#include <input.c> 
+
+#INT_TIMER1
+void  TIMER1_isr(void)  // Timer 1 INTERRUPT
+{
+   set_timer1(0xFC17);  // reload timer for 1ms overflow
+/*Read Matrizx keyboard
+HERE EVERY 1MS THE KEYBOARD SWITCHES ARE READ BY ACTIVATING ONE ROW AT A TIME OF KEYBOARD MATRIX
+AS MATRIX IS 3 X 3 SO EACH ROW IS CONNECTED TO 3 SWITCHES, HENCE WE ARE READING 3 SWITCHED SIMULTENOIUSLY EVERY 1MS
+SO ALL 9 SWITCHES ARE READ IN 3MS
+
+THE KEY STATUS IS STORED IN VARIABLES b_sw1 to b_sw9 for respactive switches
+*/
+   switch(c_kbd_scan)
+   {
+      case 1:
+      {
+         b_sw3 = input(KBD_C1);
+         b_sw6 = input(KBD_C2);
+         b_sw9 = input(KBD_C3);
+         
+         output_low(KBD_R1);
+         output_high(KBD_R2);
+         output_high(KBD_R3);
+         c_kbd_scan = 2;
+      }
+      break;
+      
+      case 2:
+      {
+         b_sw1 = input(KBD_C1);
+         b_sw4 = input(KBD_C2);
+         b_sw7 = input(KBD_C3);
+         
+         output_high(KBD_R1);
+         output_low(KBD_R2);
+         output_high(KBD_R3);
+         c_kbd_scan = 3;
+      }
+      break;
+      
+      case 3:
+      {
+         b_sw2 = input(KBD_C1);
+         b_sw5 = input(KBD_C2);
+         b_sw8 = input(KBD_C3);
+         
+         output_high(KBD_R1);
+         output_high(KBD_R2);
+         output_low(KBD_R3);
+         c_kbd_scan = 1;
+      }
+      break;
+      
+   }
+   
+/*
+   MAKING LCD BACKLIGHT OFF AFTER GIVEN TIME
+*/
+   if(input_state(LCD_BKLT) == 1)
+   {
+      l_bklt_tout_counter--;
+      if(l_bklt_tout_counter == 0)
+      {
+         output_low(LCD_BKLT);
+         l_bklt_tout_counter = 300000;  // RELOAD BACKLIGHT TIMEOUT COUNTER
+      }
+   }
+   
+   
+}
+
+
+/*
+HERE IN UART RECEIVE INTERRUPT ROUTNE, AT EVERY RECEIVE INTERRUPT WE CHECK FOR START AND END OF COMMAND
+BY COMPAIRING $ AND & SIGN. BETWEEN THESE TWO SIGN LIES THE COMMAND WORD, WHICH IS STORED IN SERIAL BUFFER
+*/
+
+#INT_RDA    // UART receive interrupt
+void  RDA_isr(void) 
+{
+unsigned char c_buff_temp;
+
+   c_buff_temp = getc();
+   if(c_buff_temp == '$')  // CHECK FOR START COMMAND INDICATOR AS THE $ SIGN IS USED AS START INDICATOR IN COMMAND
+   {
+      c_serial_buffer_counter = 0;  // RESET UART BUFFER COUNTER
+   }
+   else
+   {
+      if(c_buff_temp == '&') // CHECK FOR END OF COMMAND INDICATOR AS THE & SIGN IS USED AS END OF COMMAND INDICATOR IN COMMAND
+      {
+         b_relay_changed = check_data();
+      }
+      else
+      {
+         c_serial_buffer[c_serial_buffer_counter] = c_buff_temp;  // TAKE DATA IN UART BUFFER, ADDRESS IS PROVIDED BY BUFFER COUNTER
+         c_serial_buffer_counter++;         
+      }
+   }
+   
+   
+}
+
+
+
+
+void main()
+{
+   port_B_pullups(0xFF);
+   port_E_pullups(0xFF);
+   setup_timer_1(T1_INTERNAL|T1_DIV_BY_4);      //65.5 ms overflow
+   output_low(RLY1);
+   output_low(RLY2);
+   output_low(RLY3);
+   output_low(RLY4);
+   output_low(RLY5);
+   output_low(RLY6);
+   output_low(RLY7);
+   output_low(RLY8);
+   output_low(RLY9);    // MAKE ALL RELAY OFF
+
+
+   enable_interrupts(INT_TIMER1);   // ENABLE TIMER1 INTERRUPT
+   enable_interrupts(INT_RDA);      // ENABLE UART RECEIVE INTERRUPT
+   enable_interrupts(GLOBAL);       // ENABLE GLOBEL INTERRUPT
+   delay_ms(200);
+   lcd_init();    // CALL FOR ALPHANUMERIC 20 X 4 LINE LCD INITIALIZATION
+   output_high(LCD_BKLT);  // MAKE LCD BACKLIGHT ON
+   display_startup_message(); // SHOW STARTUP MESSAGE ON LCD DISPLAY
+   send_startup_message(); // SEND STARTUP MESSSAGE TO PC VIA UART
+   delay_ms(3000);      // DELAY TO KEEP STARTUP MESSAGE ON LCD 3000 = 3 SEC   
+   display_clear_line_all();  // EREASE STARTUP MESSAGE
+   display_status_line1();   //  BRING STANDARD TEXT ON LCD
+   display_status_line3();   //  BRING STANDARD TEXT ON LCD   
+   display_relay_status();   // SHOW RELAY STATUS ON LCD
+
+/*
+   MAIN LOOP
+*/
+   while(true)
+   {
+      if(b_relay_changed != 0)  // CHECK IF UART COMMAND RECEIVED
+      {
+         b_relay_changed = 0;
+         display_relay_status();    // UPDATE RELAY STATUS ON LCD
+      }
+      keyboard_routine();  // CHECK FOR ANY KEY PRESS
+   }
+}
+
+
+
+//=========================================
+/*
+KEYBOARD ROUTINE
+HERE ALL SWITCH STATUS ARE CHECKED SEQUENTIALLY
+AT EACH SWITCH PRESS THE RELAY IS TOGGLED & THE STATUS IS DISPLAYED ON LCD AS WELL AS SEND TO PC VIA UART
+*/
+
+void keyboard_routine(void)
+{
+   if(b_sw1 == 0)
+   {
+      output_toggle(RLY1);
+      output_high(LCD_BKLT);
+      display_relay_status(); // Update status on LCD
+      send_relay_status(1);   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw1 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   if(b_sw2 == 0)
+   {
+      output_toggle(RLY2);
+      output_high(LCD_BKLT);
+      display_relay_status(); // Update status on LCD
+      send_relay_status(2);   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw2 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   if(b_sw3 == 0)
+   {
+      output_toggle(RLY3);
+      output_high(LCD_BKLT);
+      display_relay_status(); // Update status on LCD
+      send_relay_status(3);   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw3 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   if(b_sw4 == 0)
+   {
+      output_toggle(RLY4);
+      output_high(LCD_BKLT);
+      display_relay_status(); // Update status on LCD
+      send_relay_status(4);   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw4 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   if(b_sw5 == 0)
+   {
+      output_toggle(RLY5);
+      output_high(LCD_BKLT);
+      display_relay_status(); // Update status on LCD
+      send_relay_status(5);   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw5 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   if(b_sw6 == 0)
+   {
+      output_toggle(RLY6);
+      output_high(LCD_BKLT);
+      display_relay_status(); // Update status on LCD
+      send_relay_status(6);   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw6 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   if(b_sw7 == 0)
+   {
+      output_toggle(RLY7);
+      output_high(LCD_BKLT);
+      display_relay_status(); // Update status on LCD
+      send_relay_status(7);   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw7 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   if(b_sw8 == 0)
+   {
+      output_toggle(RLY8);
+      output_high(LCD_BKLT);
+      display_relay_status(); // Update status on LCD
+      send_relay_status(8);   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw8 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   if(b_sw9 == 0)
+   {
+      output_toggle(RLY9);
+      output_high(LCD_BKLT);
+      display_relay_status(); // Update status on LCD
+      send_relay_status(9);   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw9 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   
+}
+
+//================================================
+/*
+   IN BELOW ROUTINES ALL RELAY STATUS ARE CHECKED & AS PER STATUS MESSAGES ARE SENT TO PC VIA UART
+*/
+void send_relay_status(unsigned char rel) {
+   unsigned char state = 0;
+   switch (rel) {
+      case 1:
+         state = input_state(RLY1);
+         break;
+      case 2:
+         state = input_state(RLY2);
+         break;
+      case 3:
+         state = input_state(RLY3);
+         break;
+      case 4:
+         state = input_state(RLY4);
+         break;
+      case 5:
+         state = input_state(RLY5);
+         break;
+      case 6:
+         state = input_state(RLY6);
+         break;
+      case 7:
+         state = input_state(RLY7);
+         break;
+      case 8:
+         state = input_state(RLY8);
+         break;
+      case 9:
+         state = input_state(RLY9);
+         break;
+      default:
+         break;
+   }
+   char str[20];
+   sprintf(str, "RELAY%d SWITCHED %s", rel, (state ? "ON" : "OFF"));
+   puts(str);
+}
+
+void send_relay1_status(void)
+{
+   if(input_state(RLY1) == 1)
+   {
+      puts("RELAY1 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY1 SWITCHED OFF");
+   }
+}
+
+void send_relay2_status(void)
+{
+   if(input_state(RLY2) == 1)
+   {
+      puts("RELAY2 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY2 SWITCHED OFF");
+   }
+}
+
+void send_relay3_status(void)
+{
+   if(input_state(RLY3) == 1)
+   {
+      puts("RELAY3 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY3 SWITCHED OFF");
+   }
+}
+
+void send_relay4_status(void)
+{
+   if(input_state(RLY4) == 1)
+   {
+      puts("RELAY4 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY4 SWITCHED OFF");
+   }
+}
+
+void send_relay5_status(void)
+{
+   if(input_state(RLY5) == 1)
+   {
+      puts("RELAY5 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY5 SWITCHED OFF");
+   }
+}
+
+void send_relay6_status(void)
+{
+   if(input_state(RLY6) == 1)
+   {
+      puts("RELAY6 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY6 SWITCHED OFF");
+   }
+}
+
+void send_relay7_status(void)
+{
+   if(input_state(RLY7) == 1)
+   {
+      puts("RELAY7 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY7 SWITCHED OFF");
+   }
+}
+
+void send_relay8_status(void)
+{
+   if(input_state(RLY8) == 1)
+   {
+      puts("RELAY8 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY8 SWITCHED OFF");
+   }
+}
+
+void send_relay9_status(void)
+{
+   if(input_state(RLY9) == 1)
+   {
+      puts("RELAY9 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY9 SWITCHED OFF");
+   }
+}
+
+
+//===================================================================
+/*
+CHACK DATA
+THIS ROUTINE IS CALLED AS SOON AS ANY COMMAND IS RECEIVED FROM INTERRUPT ROUTINE
+IN THIS ROUTIN THE COMMAND FROM SERIAL BUFFER IS COMPAIRED AND AS PER THAT THE RESPACTIVE RELAY PORT PIN STATUS GETS ALTERED
+*/
+void check_data(void)
+{
+char c_buff_temp;
+   if(c_serial_buffer[0] == 'R')
+   {   
+      if(c_serial_buffer[1] == 'L')
+      {
+         if(c_serial_buffer[2] == 'Y')
+         {
+            if(c_serial_buffer[4] == 'O')
+            {
+               c_buff_temp = c_serial_buffer[3] - 48; // MAKING ASCII TO DECIMAL NO.
+               output_high(LCD_BKLT);     // MAKE DISPLAY BACKLIGHT ON
+               switch(c_buff_temp)
+               {
+                  case 1:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY1);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY1);
+                     }
+                  }
+                  break;
+                  
+                  case 2:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY2);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY2);
+                     }
+                  }
+                  break;
+                  
+                  case 3:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY3);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY3);
+                     }
+                  }
+                  break;
+                  
+                  case 4:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY4);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY4);
+                     }
+                  }
+                  break;
+                  
+                  case 5:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY5);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY5);
+                     }
+                  }
+                  break;
+                  
+                  case 6:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY6);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY6);
+                     }
+                  }
+                  break;
+                  
+                  case 7:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY7);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY7);
+                     }
+                  }
+                  break;
+                  
+                  case 8:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY8);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY8);
+                     }
+                  }
+                  break;
+                  
+                  case 9:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY9);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY9);
+                     }
+                  }
+                  break;                 
+               }
+            }            
+         }
+      }
+   }
+   else if (c_serial_buffer[0] == 'H') {
+      send_startup_message();
+   }
+}
+
+
+//=================================================================
+
+
+void lcd_init(void)
+{
+   put_lcd_data_h(0x20);      //Function Set: 4-bit, 1 Line, 5x7 Dots
+   lcd_cmd(); 
+   delay_ms(150); 
+   
+   put_lcd_data_h(0x20);      //Function Set: 4-bit, 1 Line, 5x7 Dots
+   lcd_cmd(); 
+   delay_ms(150); 
+   
+   put_lcd_data_h(0x20);      //Function Set: 4-bit, 1 Line, 5x7 Dots
+   lcd_cmd(); 
+   delay_ms(150); 
+   
+   send_lcd_command(0x28);   //Function Set: 4-bit, 2 Line, 5x7 Dots
+   delay_ms(100);    
+   
+   send_lcd_command(0x0C);   //   Display on Cursor off
+   delay_ms(100);   
+   
+   send_lcd_command(0x06);     //    Entry Mode Increment cursor position
+   delay_ms(100); 
+      
+   send_lcd_command(0x01);      //Clear Display (also clear DDRAM content)
+   delay_ms(100);    
+}
+
+
+
+void send_lcd_command (unsigned char c_data) // SEND LCD COMMAND NIBBLE BY NIBBLE AS FOR 4 BIT COMMUNICATION
+{
+    put_lcd_data_h(c_data);
+    lcd_cmd();
+    put_lcd_data_l(c_data);
+    lcd_cmd();
+}
+
+void send_lcd_data (unsigned char c_data) // SEND LCD DATA NIBBLE BY NIBBLE AS FOR 4 BIT COMMUNICATION
+{
+    put_lcd_data_h(c_data);
+    lcd_data();
+    put_lcd_data_l(c_data);
+    lcd_data();
+}
+
+/*
+   LCD DATA
+   PROVIDE PULSE ON ENABLE BY KEEPING RS(REGISTOR SELECT) FOR DATA 
+*/
+void lcd_data (void)
+{
+   output_high(LCD_RS);
+   output_low(LCD_EN);
+   delay_us(100); 
+   output_high(LCD_EN);
+   delay_us(100);   
+   output_low(LCD_EN);  
+   delay_us(100);   // every cycle will need delay
+}
+
+/*
+   LCD COMMAND
+   PROVIDE PULSE ON ENABLE BY KEEPING RS(REGISTOR SELECT) FOR COMMAND 
+*/
+void lcd_cmd (void)
+{
+   output_low(LCD_RS);
+   output_low(LCD_EN);
+   delay_us(100); 
+   output_high(LCD_EN);
+   delay_us(100);   
+   output_low(LCD_EN);  
+   delay_us(100);   // every cycle will need delay
+}
+
+
+
+//====================================================================
+/*  
+   put_lcd_data_h
+   RE ARRANGE LCD DATA & PUT LOWER NIBBBLE ON DATA LINES
+   AS THE LCD DATA BUS IS CONNECED TO RANDOM AVAILABEL PORT PINS OF THE MCU
+   IT IS REQUIRED TO RE ARRANGE THE DATA WORD AS PER CONNECTED PORT PIN TO DATA LINES
+   AS THE LCD IS CONFIGURED FOR 4 BIT COMMUNICATION, THIS ROUTINE MAKES HIGHER NIBBLE AVAILABLE ON LCD PORT
+*/
+//====================================================================
+void put_lcd_data_h (unsigned char c_lcd_data)
+{
+unsigned char c_data_copy;
+
+   c_data_copy = c_lcd_data;
+   c_data_copy = c_data_copy & 0x10;   // MASK ALL BITS & KEEP ONLY 5TH BIT
+   if(c_data_copy >= 1)    // CHECK IF 4TH BIT IS 1 
+   {
+      output_high(D4);   // SET LCD DATA LINE D4 HIGH 
+   }
+   else
+   {
+      output_low(D4);     // SET LCD DATA LINE D4 LOW
+   }
+   
+   c_data_copy = c_lcd_data;
+   c_data_copy = c_data_copy & 0x20;   // MASK ALL BITS & KEEP ONLY 6TH BIT
+   if(c_data_copy >= 1) // CHECK IF BIT IS 1
+   {
+      output_high(D5);   // SET LCD DATA LINE D5 HIGH 
+   }
+   else
+   {
+      output_low(D5);     // SET LCD DATA LINE D5 LOW
+   }
+   
+   c_data_copy = c_lcd_data;
+   c_data_copy = c_data_copy & 0x40;   // MASK ALL BITS & KEEP ONLY 7TH BIT
+   if(c_data_copy >= 1) // CHECK IF BIT IS 1
+   {
+      output_high(D6);   // SET LCD DATA LINE D6 HIGH 
+   }
+   else
+   {
+      output_low(D6);    // SET LCD DATA LINE D6 LOW
+   }
+   
+   c_data_copy = c_lcd_data;
+   c_data_copy = c_data_copy & 0x80;   // MASK ALL BITS & KEEP ONLY 8TH BIT
+   if(c_data_copy >= 1) // CHECK IF BIT IS 1
+   {
+      output_high(D7);   // SET LCD DATA LINE D7 HIGH    
+   }
+   else
+   {
+      output_low(D7);    // SET LCD DATA LINE D7 LOW 
+   }
+
+}
+
+//====================================================================
+/*  
+   put_lcd_data_l
+   RE ARRANGE LCD DATA & PUT LOWER NIBBBLE ON DATA LINES
+   AS THE LCD DATA BUS IS CONNECED TO RANDOM AVAILABEL PORT PINS OF THE MCU
+   IT IS REQUIRED TO RE ARRANGE THE DATA WORD AS PER CONNECTED PORT PIN TO DATA LINES
+   AS THE LCD IS CONFIGURED FOR 4 BIT COMMUNICATION, THIS ROUTINE MAKES LOWER NIBBLE AVAILABLE ON LCD PORT
+*/
+//====================================================================
+void put_lcd_data_l (unsigned char c_lcd_data)
+{
+unsigned char c_data_copy;
+
+   c_data_copy = c_lcd_data;
+   c_data_copy = c_data_copy & 0x01;   // MASK ALL BITS & KEEP ONLY 1ST BIT
+   if(c_data_copy >= 1) // CHECK IF BIT IS 1
+   {
+      output_high(D4);   // SET LCD DATA LINE D4 HIGH   
+   }
+   else
+   {
+      output_low(D4);    // SET LCD DATA LINE D4 LOW 
+   }
+   
+   c_data_copy = c_lcd_data;
+   c_data_copy = c_data_copy & 0x02;   // MASK ALL BITS & KEEP ONLY 2ND BIT
+   if(c_data_copy >= 1) // CHECK IF BIT IS 1
+   {
+      output_high(D5);   // SET LCD DATA LINE D5 HIGH     
+   }
+   else
+   {
+      output_low(D5);    // SET LCD DATA LINE D5 LOW  
+   }
+   
+   c_data_copy = c_lcd_data;
+   c_data_copy = c_data_copy & 0x04;   // MASK ALL BITS & KEEP ONLY 3RD BIT
+   if(c_data_copy >= 1) // CHECK IF BIT IS 1
+   {
+      output_high(D6);   // SET LCD DATA LINE D6 HIGH     
+   }
+   else
+   {
+      output_low(D6);    // SET LCD DATA LINE D6 LOW  
+   }
+   
+   c_data_copy = c_lcd_data;
+   c_data_copy = c_data_copy & 0x08;   // MASK ALL BITS & KEEP ONLY 4TH BIT
+   if(c_data_copy >= 1) // CHECK IF BIT IS 1
+   {
+      output_high(D7);   // SET LCD DATA LINE D7 HIGH     
+   }
+   else
+   {
+      output_low(D7);    // SET LCD DATA LINE D7 LOW  
+   }
+
+}
+
+
+
+// CLEAR LCD LINE 1 BY SENDING BLANK SPACE TO ALL CHARACTORS
+void display_clear_line_1(void)
+{   
+unsigned char k;
+unsigned char z = 0;
+   send_lcd_command(lcd_line1);
+   
+   for (k = 20; k > 0 ; k--)  //
+   {
+      send_lcd_data(' ');
+      z++;
+   }
+}
+//====================
+
+// CLEAR LCD LINE 2 BY SENDING BLANK SPACE TO ALL CHARACTORS
+void display_clear_line_2(void)
+{   
+unsigned char k;
+unsigned char z = 0;
+   send_lcd_command(lcd_line2);
+   
+   for (k = 20; k > 0 ; k--)  //
+   {
+      send_lcd_data(' ');
+      z++;
+   }
+}
+//====================
+
+// CLEAR LCD LINE 3 BY SENDING BLANK SPACE TO ALL CHARACTORS
+void display_clear_line_3(void)
+{   
+unsigned char k;
+unsigned char z = 0;
+   send_lcd_command(lcd_line3);
+   
+   for (k = 20; k > 0 ; k--)  //
+   {
+      send_lcd_data(' ');
+      z++;
+   }
+}
+//====================
+
+// CLEAR LCD LINE 4 BY SENDING BLANK SPACE TO ALL CHARACTORS
+void display_clear_line_4(void)
+{   
+unsigned char k;
+unsigned char z = 0;
+   send_lcd_command(lcd_line4);
+   
+   for (k = 20; k > 0 ; k--)  //
+   {
+      send_lcd_data(' ');
+      z++;
+   }
+}
+//====================
+
+
+// CLEAR ENTIRE LCD DISPLAY
+void display_clear_line_all(void)
+{
+   display_clear_line_1();
+   display_clear_line_2();
+   display_clear_line_3();
+   display_clear_line_4();
+}
+
+
+char disp_status_line1_string[] = "RE1 RE2 RE3 RE4 RE5";
+
+void display_status_line1(void)        // PUT STANDARD STATUS LINE ON LCD LINE1
+{   
+unsigned char k;
+unsigned char z = 0;
+
+   send_lcd_command(lcd_line1);
+   
+   for (k = 19; k > 0 ; k--)  
+   {
+      send_lcd_data(disp_status_line1_string[z]);
+      z++;
+   }     
+}
+//====================
+
+char disp_status_line3_string[] = "RE6 RE7 RE8 RE9";
+
+void display_status_line3(void)        // PUT STANDARD STATUS LINE ON LCD LINE3
+{   
+unsigned char k;
+unsigned char z = 0;
+
+   send_lcd_command(lcd_line3);
+   
+   for (k = 15; k > 0 ; k--)  //
+   {
+      send_lcd_data(disp_status_line3_string[z]);
+      z++;
+   }     
+}
+//====================
+
+
+char disp_startup_line1[] = "     Elektor(C)     ";
+char disp_startup_line2[] = "  9 Ch Relay Board  ";
+char disp_startup_line3[] = "      130549-1      ";
+char disp_startup_line4[] = "    Version 1.0     ";
+
+void display_startup_message (void)    // DISPLAY STARTUP MESSAGE ON LCD
+{   
+unsigned char k;
+unsigned char z = 0;
+
+   send_lcd_command(lcd_line1);
+   
+   for (k = 20; k > 0 ; k--)  //
+   {
+      send_lcd_data(disp_startup_line1[z]);
+      z++;
+   }     
+   
+   send_lcd_command(lcd_line2);
+   z = 0;
+   for (k = 20; k > 0 ; k--)  //
+   {
+      send_lcd_data(disp_startup_line2[z]);
+      z++;
+   } 
+   
+   send_lcd_command(lcd_line3);
+   z = 0;
+   for (k = 20; k > 0 ; k--)  //
+   {
+      send_lcd_data(disp_startup_line3[z]);
+      z++;
+   } 
+   
+   send_lcd_command(lcd_line4);
+   z = 0;
+   for (k = 20; k > 0 ; k--)  //
+   {
+      send_lcd_data(disp_startup_line4[z]);
+      z++;
+   } 
+}
+
+/*
+   display_relay_status
+   HERE THE RELAY STATUS IS CHECKED BY READING THE PORT PIN STATUS
+   AND AS PER STATE OF RESPACTIVE RELAY STATUS IS DISPLAYED ON LCD
+*/
+void display_relay_status(void)
+{     
+   send_lcd_command(lcd_line2);
+   send_lcd_data('O');
+   if(input_state(RLY1) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+   
+   send_lcd_command(lcd_line2+4);
+   send_lcd_data('O');
+   if(input_state(RLY2) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+   
+   send_lcd_command(lcd_line2+8);
+   send_lcd_data('O');
+   if(input_state(RLY3) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+   
+   send_lcd_command(lcd_line2+12);
+   send_lcd_data('O');
+   if(input_state(RLY4) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+   
+   send_lcd_command(lcd_line2+16);
+   send_lcd_data('O');
+   if(input_state(RLY5) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+   
+   send_lcd_command(lcd_line4);
+   send_lcd_data('O');
+   if(input_state(RLY6) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+   
+   send_lcd_command(lcd_line4+4);
+   send_lcd_data('O');
+   if(input_state(RLY7) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+   
+   send_lcd_command(lcd_line4+8);
+   send_lcd_data('O');
+   if(input_state(RLY8) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+   
+   send_lcd_command(lcd_line4+12);
+   send_lcd_data('O');
+   if(input_state(RLY9) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+
+}
+
+
+// SEND STARTUP MESSAGE ON POWER ON
+void send_startup_message(void)
+{
+   puts(" ");
+   puts(" ");
+   puts(" ");
+   puts("======================================================================================");
+   puts("Elektor(C)");
+   puts("Project Name: 9 Channel Relay Control Board with PC Interface");
+   puts("Project Number: 130549-1");
+   puts("Version 1.0");
+   puts("======================================================================================");
+   puts("INSTRUCTIONS FOR PC COMMANDS:");
+   puts("COMMAND FROM PC ARE AS FOLLOWS");
+   puts("FOR EXAMPLE TO MAKE RELAY 1 ON SEND '$RLY1ON&'");
+   puts("AND TO MAKE RELAY 1 OFF SEND '$RLY1OF&'");   
+   puts("TO CONTROL ALL OTHER RELAYS THE COMMAND REMAINS SAME ONLY 5TH CHARACTOR OF THE COMMAND");
+   puts("IS REQUIRED TO CHANGE WITH THE NUMBER OF THE RELAY WHICH REQUIRE TO BE CONTROLLED");
+   puts("IN GIVEN EXAMPLE 5TH CHARACTOR OF COMMAND IS '1' SO IT WILL CONTROL RELAY 1");   
+   puts("FOR EXAMPLE IF WE REPLACE '1' BY '4' AND COMMAND BECOMES '$RLY4ON&' THIS WILL MAKE");   
+   puts("RELAY 4 ON");
+   puts("HERE '$' IS USED AS COMMAND START INDICATOR AND '&' SIGN IS USED FOR COMMAND END INDICATOR");
+}
+
+

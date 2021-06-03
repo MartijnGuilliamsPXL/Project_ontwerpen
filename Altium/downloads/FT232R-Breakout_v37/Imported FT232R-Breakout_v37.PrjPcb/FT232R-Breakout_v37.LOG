@@ -1,0 +1,24 @@
+Importer Log Report
+Project : FT232R-Breakout_v37.PrjPcb
+
+Section : Analyze Document - C:\Users\Martijn Guilliams\Downloads\FT232R-Breakout_v37\FT232R-Breakout_v37.brd
+    Analyzing data of C:\Users\Martijn Guilliams\Downloads\FT232R-Breakout_v37\FT232R-Breakout_v37.brd
+    Load settings
+    Load layers 108
+    Load board
+    Load Library "SparkFun"
+    Load Packages 6
+    Load Library "SparkFun-Resistors"
+    Load Packages 1
+    Load Library "SparkFun-LED"
+    Load Packages 1
+    Load Library "SparkFun-Capacitors"
+    Load Packages 2
+    Load Library "SparkFun-Aesthetics"
+    Load Packages 3
+    Load Library "SparkFun-Connectors"
+    Load Packages 1
+    Load Library "SparkFun-Electromechanical"
+    Load Packages 1
+    ERROR: Unhandled typeerrors
+EndSection

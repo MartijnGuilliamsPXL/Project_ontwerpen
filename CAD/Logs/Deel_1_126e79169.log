@@ -1,0 +1,675 @@
+[ AutoCAD - Wed Jun 02 00:12:07 2021  ]----------------------------------------
+Loading AEC Base...
+Loading AEC Base Extended...
+Loading AEC Core...
+Loading AEC Project Base...
+Loading AEC Architectural Base...
+Loading AEC Schedule...
+
+Loading Modeler DLLs.
+
+Opening an AutoCAD 2018 format file.
+Substituting [simplex.shx] for [Freehand575 BT].
+
+
+AutoCAD menu utilities loaded.*Cancel*
+
+Command: 
+
+Autodesk DWG.  This file is a TrustedDWG last saved by an Autodesk application or Autodesk licensed application.
+
+Command: 
+
+Command: 
+Command:  
+Command: *Cancel*
+
+Command: *Cancel*
+
+Command: _vscurrent 
+Enter an option [2dwireframe/Wireframe/Hidden/Realistic/Conceptual/Shaded/shaded with Edges/shades of Gray/SKetchy/X-ray/Other] <Conceptual>: _r 
+Command:  
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: *Cancel*
+
+1 edge(s) selected for fillet.
+
+No fillet to be computed.
+
+Command: *Cancel*
+
+Command: *Cancel*
+
+Command: _vscurrent 
+Enter an option [2dwireframe/Wireframe/Hidden/Realistic/Conceptual/Shaded/shaded with Edges/shades of Gray/SKetchy/X-ray/Other] <Realistic>: _c 
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: *Cancel*
+
+3 edge(s) selected for fillet.
+
+No fillet to be computed.
+
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: R
+
+Enter fillet radius <1.000>: 2
+
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: R
+
+Enter fillet radius <2.000>: 1.5
+
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Press Enter to accept the fillet or [Radius]:
+
+Command: 
+FILLETEDGE
+
+Radius = 1.500
+Select an edge or [Chain/Loop/Radius]: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: *Cancel*
+
+0 edge(s) selected for fillet.
+
+No fillet to be computed.
+
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 FILLETEDGE 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 FILLETEDGE GROUP 
+Command: *Cancel*
+
+Command:  
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: 
+Command: _union 
+Select objects: 1 found
+
+Select objects: 1 found, 2 total
+
+Select objects: 1 found, 3 total
+
+Select objects: 1 found, 4 total
+
+Select objects: 
+
+
+Command: 
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _union 
+Select objects: 1 found
+
+Select objects: 1 found, 2 total
+
+Select objects: 
+
+
+Command: 
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: 
+
+
+Command: 
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '.3DPAN2 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 '3DORBIT GROUP 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 DROPGEOM GROUP 
+Command: 
+Command: 
+Command: 
+Command: _hideobjects 1 found
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: 
+Command: _.browser Enter Web location (URL)  <http://www.autodesk.com>: http://www.autodesk.com/trusteddwg 
+
+Command: 
+Command: 
+Command: _hideobjects 
+Select objects: 1 found
+
+Select objects: *Cancel*
+
+Command: 
+Command: _hideobjects 
+Select objects: *Cancel*
+
+Command: 
+Command: 
+Command: 
+Command: _hideobjects 1 found
+
+Command:  
+Crossing Lasso  Press Spacebar to cycle options
+Command: _.erase 6 found
+
+Command:  
+Command: 
+Command: 
+Command: _unisolateobjects 
+2 object(s) unisolated.
+
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: *Cancel*
+
+1 edge(s) selected for fillet.
+
+No fillet to be computed.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: R
+
+Enter fillet radius <1.000>: 2
+
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+4 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+FILLETEDGE
+
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+
+0 edge(s) selected for fillet.
+
+No fillet to be computed.
+
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 FILLETEDGE 
+Command: 
+Command: 
+Command: _.undo Current settings: Auto = On, Control = All, Combine = Yes, Layer = Yes
+Enter the number of operations to undo or [Auto/Control/BEgin/End/Mark/Back] <1>: 1 FILLETEDGE GROUP 
+Command: 
+Command:  
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: R
+
+Enter fillet radius <1.000>: 2
+
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+FILLETEDGE
+
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+
+0 edge(s) selected for fillet.
+
+No fillet to be computed.
+
+Command: 
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: L
+
+Select edge of loop or [Edge/Chain/Radius]: C
+
+Select an edge chain or [Edge/Radius]: 2
+
+Select an edge chain or [Edge/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+FILLETEDGE
+
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+Command: *Cancel*
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command:  
+Command:  
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: *Cancel*
+
+1 edge(s) selected for fillet.
+
+No fillet to be computed.
+
+Command:  
+Command:  
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+Command: 
+Command: _solidedit 
+Solids editing automatic checking:  SOLIDCHECK=1
+Enter a solids editing option [Face/Edge/Body/Undo/eXit] <eXit>: _face 
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: _taper 
+Select faces or [Undo/Remove]: 2 faces found.
+
+Select faces or [Undo/Remove/ALL]: 
+
+Specify the base point: *Cancel*
+
+Command: 
+Command: 
+Command: _CHAMFEREDGE Distance1 = 1.000, Distance2 = 1.000
+Select an edge or [Loop/Distance]: 
+Select another edge on the same face or [Loop/Distance]: 
+
+
+Failed to perform blend.
+
+Failure while chamfering.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: *Cancel*
+
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+Command: 
+Command: _SURFFILLET 
+Radius = 1.000, Trim Surface = yes
+Select first surface or region to fillet or [Radius/Trim surface]: 
+Not a valid object type
+Select first surface or region to fillet or [Radius/Trim surface]: 
+Not a valid object type
+Select first surface or region to fillet or [Radius/Trim surface]: *Cancel*
+
+Window Lasso  Press Spacebar to cycle options
+Command: *Cancel*
+
+Command:  
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: 2
+
+Select an edge or [Chain/Loop/Radius]: 
+
+4 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Automatic save to C:\Users\MARTIJ~1\AppData\Local\Temp\Deel_1_1_32642_09775714.sv$ ...
+
+Command: 
+Command: 
+FILLETEDGE
+
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: *Cancel*
+
+0 edge(s) selected for fillet.
+
+No fillet to be computed.
+
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: R
+
+Enter fillet radius <1.000>: 2
+
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: 
+
+4 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+Command: *Cancel*
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+Command: 
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+Edge has already been picked.
+
+Select an edge or [Chain/Loop/Radius]: 
+Edge has already been picked.
+
+Select an edge or [Chain/Loop/Radius]:  
+Resuming FILLETEDGE command.
+
+Select an edge or [Chain/Loop/Radius]: L
+
+Select edge of loop or [Edge/Chain/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command:  
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _FILLETEDGE 
+Radius = 1.000
+Select an edge or [Chain/Loop/Radius]: 
+Select an edge or [Chain/Loop/Radius]: 
+
+1 edge(s) selected for fillet.
+
+Failed to perform blend.
+
+Failure while filleting.
+
+Command: 
+Press ESC or ENTER to exit, or right-click to display shortcut-menu.
+
+Command: 
+Command: 
+Command: _QSAVE 
+Command: *Cancel*
+
+Command: *Cancel*
+
+Command: _quit 
+Command: 

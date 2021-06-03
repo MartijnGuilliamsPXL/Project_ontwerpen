@@ -1,0 +1,997 @@
+#include <9ch_relay_uart.h>
+
+#include <float.h>
+#include <stddef.h>
+#include <stdlib.h>
+#include <stdlibm.h>
+#include <string.h>
+#include <stdio.h>
+#include <stdint.h>
+#include <input.c> 
+
+#INT_TIMER1
+void  TIMER1_isr(void) 
+{
+   set_timer1(0xFC17);
+   switch(c_kbd_scan)
+   {
+      case 1:
+      {
+         b_sw3 = input(KBD_C1);
+         b_sw6 = input(KBD_C2);
+         b_sw9 = input(KBD_C3);
+         
+         output_low(KBD_R1);
+         output_high(KBD_R2);
+         output_high(KBD_R3);
+         c_kbd_scan = 2;
+      }
+      break;
+      
+      case 2:
+      {
+         b_sw1 = input(KBD_C1);
+         b_sw4 = input(KBD_C2);
+         b_sw7 = input(KBD_C3);
+         
+         output_high(KBD_R1);
+         output_low(KBD_R2);
+         output_high(KBD_R3);
+         c_kbd_scan = 3;
+      }
+      break;
+      
+      case 3:
+      {
+         b_sw2 = input(KBD_C1);
+         b_sw5 = input(KBD_C2);
+         b_sw8 = input(KBD_C3);
+         
+         output_high(KBD_R1);
+         output_high(KBD_R2);
+         output_low(KBD_R3);
+         c_kbd_scan = 1;
+      }
+      break;
+      
+   }
+   
+}
+
+#INT_RDA
+void  RDA_isr(void) 
+{
+unsigned char c_buff_temp;
+
+   c_buff_temp = getc();
+   if(c_buff_temp == '$')
+   {
+      c_serial_buffer_counter = 0;
+   }
+   else
+   {
+      if(c_buff_temp == '&')
+      {
+         b_serial_data_received = 1;
+         check_data();
+      }
+      else
+      {
+         c_serial_buffer[c_serial_buffer_counter] = c_buff_temp;
+         c_serial_buffer_counter++;         
+      }
+   }
+   
+   
+}
+
+
+
+
+void main()
+{
+   port_B_pullups(0xFF);
+   port_E_pullups(0xFF);
+   setup_timer_1(T1_INTERNAL|T1_DIV_BY_4);      //65.5 ms overflow
+
+
+   enable_interrupts(INT_TIMER1);
+   enable_interrupts(INT_RDA);
+   enable_interrupts(GLOBAL);
+
+   lcd_init();
+   output_high(LCD_BKLT);
+   display_startup_message();
+   delay_ms(3000);
+   send_startup_message();
+   display_clear_line_all();           
+   display_status_line1();   
+   display_status_line3();   
+   output_low(RLY1);
+   output_low(RLY2);
+   output_low(RLY3);
+   output_low(RLY4);
+   output_low(RLY5);
+   output_low(RLY6);
+   output_low(RLY7);
+   output_low(RLY8);
+   output_low(RLY9);
+   display_relay_status();
+
+   //Example blinking LED program
+   while(true)
+   {
+      if(b_serial_data_received == 1)
+      {
+         b_serial_data_received = 0;
+         display_relay_status();
+      }
+      keyboard_routine();
+   }
+
+}
+
+
+void keyboard_routine(void)
+{
+   if(b_sw1 == 0)
+   {
+      output_toggle(RLY1);
+      display_relay_status(); // Update status on LCD
+      send_relay1_status();   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw1 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   if(b_sw2 == 0)
+   {
+      output_toggle(RLY2);
+      display_relay_status(); // Update status on LCD
+      send_relay2_status();   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw2 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   if(b_sw3 == 0)
+   {
+      output_toggle(RLY3);
+      display_relay_status(); // Update status on LCD
+      send_relay3_status();   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw3 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   if(b_sw4 == 0)
+   {
+      output_toggle(RLY4);
+      display_relay_status(); // Update status on LCD
+      send_relay4_status();   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw4 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   if(b_sw5 == 0)
+   {
+      output_toggle(RLY5);
+      display_relay_status(); // Update status on LCD
+      send_relay5_status();   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw5 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   if(b_sw6 == 0)
+   {
+      output_toggle(RLY6);
+      display_relay_status(); // Update status on LCD
+      send_relay6_status();   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw6 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   if(b_sw7 == 0)
+   {
+      output_toggle(RLY7);
+      display_relay_status(); // Update status on LCD
+      send_relay7_status();   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw7 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   if(b_sw8 == 0)
+   {
+      output_toggle(RLY8);
+      display_relay_status(); // Update status on LCD
+      send_relay8_status();   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw8 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   if(b_sw9 == 0)
+   {
+      output_toggle(RLY9);
+      display_relay_status(); // Update status on LCD
+      send_relay9_status();   // Send new status on UART
+      delay_ms(30);  // Switch Press Debounse
+      while(b_sw9 == 0)
+      {}               // wait for switch release
+      delay_ms(30);  // Switch Press Debounse
+   }
+   
+}
+
+
+void send_relay1_status(void)
+{
+   if(input_state(RLY1) == 1)
+   {
+      puts("RELAY1 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY1 SWITCHED OFF");
+   }
+}
+
+void send_relay2_status(void)
+{
+   if(input_state(RLY2) == 1)
+   {
+      puts("RELAY2 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY2 SWITCHED OFF");
+   }
+}
+
+void send_relay3_status(void)
+{
+   if(input_state(RLY3) == 1)
+   {
+      puts("RELAY3 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY3 SWITCHED OFF");
+   }
+}
+
+void send_relay4_status(void)
+{
+   if(input_state(RLY4) == 1)
+   {
+      puts("RELAY4 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY4 SWITCHED OFF");
+   }
+}
+
+void send_relay5_status(void)
+{
+   if(input_state(RLY5) == 1)
+   {
+      puts("RELAY5 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY5 SWITCHED OFF");
+   }
+}
+
+void send_relay6_status(void)
+{
+   if(input_state(RLY6) == 1)
+   {
+      puts("RELAY6 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY6 SWITCHED OFF");
+   }
+}
+
+void send_relay7_status(void)
+{
+   if(input_state(RLY7) == 1)
+   {
+      puts("RELAY7 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY7 SWITCHED OFF");
+   }
+}
+
+void send_relay8_status(void)
+{
+   if(input_state(RLY8) == 1)
+   {
+      puts("RELAY8 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY8 SWITCHED OFF");
+   }
+}
+
+void send_relay9_status(void)
+{
+   if(input_state(RLY9) == 1)
+   {
+      puts("RELAY9 SWITCHED ON");
+   }
+   else
+   {
+      puts("RELAY9 SWITCHED OFF");
+   }
+}
+
+
+
+
+
+
+void check_data(void)
+{
+char c_buff_temp;
+   if(c_serial_buffer[0] == 'R')
+   {   
+      if(c_serial_buffer[1] == 'L')
+      {
+         if(c_serial_buffer[2] == 'Y')
+         {
+            if(c_serial_buffer[4] == 'O')
+            {
+               c_buff_temp = c_serial_buffer[3] - 48;
+               switch(c_buff_temp)
+               {
+                  case 1:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY1);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY1);
+                     }
+                  }
+                  break;
+                  
+                  case 2:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY2);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY2);
+                     }
+                  }
+                  break;
+                  
+                  case 3:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY3);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY3);
+                     }
+                  }
+                  break;
+                  
+                  case 4:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY4);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY4);
+                     }
+                  }
+                  break;
+                  
+                  case 5:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY5);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY5);
+                     }
+                  }
+                  break;
+                  
+                  case 6:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY6);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY6);
+                     }
+                  }
+                  break;
+                  
+                  case 7:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY7);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY7);
+                     }
+                  }
+                  break;
+                  
+                  case 8:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY8);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY8);
+                     }
+                  }
+                  break;
+                  
+                  case 9:
+                  {
+                     if(c_serial_buffer[5] == 'N')
+                     {
+                        output_high(RLY9);
+                     }
+                     if(c_serial_buffer[5] == 'F')
+                     {
+                        output_low(RLY9);
+                     }
+                  }
+                  break;                 
+               }
+            }            
+         }
+      }
+   }
+
+}
+
+
+
+void lcd_init(void)
+{
+   put_lcd_data_h(0x20);
+   lcd_cmd(); 
+   delay_ms(50); 
+   
+   send_lcd_command(0x28);   //Function Set: 4-bit, 2 Line, 5x7 Dots
+   delay_ms(50); 
+   
+   
+   send_lcd_command(0x0C);   //   Display on Cursor off
+   delay_ms(50);   
+   
+   send_lcd_command(0x06);     //    Entry Mode Increment cursor position
+   delay_ms(50); 
+      
+   send_lcd_command(0x01);      //Clear Display (also clear DDRAM content)
+   delay_ms(50); 
+   
+
+   
+   
+   
+}
+
+
+
+void send_lcd_command (unsigned char c_data)
+{
+    put_lcd_data_h(c_data);
+    lcd_cmd();
+    put_lcd_data_l(c_data);
+    lcd_cmd();
+}
+
+void send_lcd_data (unsigned char c_data)
+{
+    put_lcd_data_h(c_data);
+    lcd_data();
+    put_lcd_data_l(c_data);
+    lcd_data();
+}
+
+
+
+void lcd_data (void)
+{
+   output_high(LCD_RS);
+   output_low(LCD_EN);
+   delay_us(10); 
+   output_high(LCD_EN);
+   delay_us(10);   
+   output_low(LCD_EN);  
+   delay_us(10);   // every cycle will need delay
+}
+
+void lcd_cmd (void)
+{
+   output_low(LCD_RS);
+   output_low(LCD_EN);
+   delay_us(10); 
+   output_high(LCD_EN);
+   delay_us(10);   
+   output_low(LCD_EN);  
+   delay_us(10);   // every cycle will need delay
+}
+
+
+
+//====================================================================
+//   RE ARRANGE LCD DATA & PUT LOWER NIBBBLE ON D
+//====================================================================
+void put_lcd_data_h (unsigned char c_lcd_data)
+{
+unsigned char c_data_copy;
+
+   c_data_copy = c_lcd_data;
+   c_data_copy = c_data_copy & 0x10;
+   if(c_data_copy >= 1)
+   {
+      output_high(D4);   
+   }
+   else
+   {
+      output_low(D4); 
+   }
+   
+   c_data_copy = c_lcd_data;
+   c_data_copy = c_data_copy & 0x20;
+   if(c_data_copy >= 1)
+   {
+      output_high(D5);   
+   }
+   else
+   {
+      output_low(D5); 
+   }
+   
+   c_data_copy = c_lcd_data;
+   c_data_copy = c_data_copy & 0x40;
+   if(c_data_copy >= 1)
+   {
+      output_high(D6);   
+   }
+   else
+   {
+      output_low(D6); 
+   }
+   
+   c_data_copy = c_lcd_data;
+   c_data_copy = c_data_copy & 0x80;
+   if(c_data_copy >= 1)
+   {
+      output_high(D7);   
+   }
+   else
+   {
+      output_low(D7); 
+   }
+
+}
+
+//====================================================================
+//   RE ARRANGE LCD DATA & PUT LOWER NIBBBLE ON D
+//====================================================================
+void put_lcd_data_l (unsigned char c_lcd_data)
+{
+unsigned char c_data_copy;
+
+   c_data_copy = c_lcd_data;
+   c_data_copy = c_data_copy & 0x01;
+   if(c_data_copy >= 1)
+   {
+      output_high(D4);   
+   }
+   else
+   {
+      output_low(D4); 
+   }
+   
+   c_data_copy = c_lcd_data;
+   c_data_copy = c_data_copy & 0x02;
+   if(c_data_copy >= 1)
+   {
+      output_high(D5);   
+   }
+   else
+   {
+      output_low(D5); 
+   }
+   
+   c_data_copy = c_lcd_data;
+   c_data_copy = c_data_copy & 0x04;
+   if(c_data_copy >= 1)
+   {
+      output_high(D6);   
+   }
+   else
+   {
+      output_low(D6); 
+   }
+   
+   c_data_copy = c_lcd_data;
+   c_data_copy = c_data_copy & 0x08;
+   if(c_data_copy >= 1)
+   {
+      output_high(D7);   
+   }
+   else
+   {
+      output_low(D7); 
+   }
+
+}
+
+
+
+
+void display_clear_line_1(void)
+{   
+unsigned char k;
+unsigned char z = 0;
+   send_lcd_command(lcd_line1);
+   
+   for (k = 20; k > 0 ; k--)  //
+   {
+      send_lcd_data(' ');
+      z++;
+   }
+}
+//====================
+
+void display_clear_line_2(void)
+{   
+unsigned char k;
+unsigned char z = 0;
+   send_lcd_command(lcd_line2);
+   
+   for (k = 20; k > 0 ; k--)  //
+   {
+      send_lcd_data(' ');
+      z++;
+   }
+}
+//====================
+
+void display_clear_line_3(void)
+{   
+unsigned char k;
+unsigned char z = 0;
+   send_lcd_command(lcd_line3);
+   
+   for (k = 20; k > 0 ; k--)  //
+   {
+      send_lcd_data(' ');
+      z++;
+   }
+}
+//====================
+
+void display_clear_line_4(void)
+{   
+unsigned char k;
+unsigned char z = 0;
+   send_lcd_command(lcd_line4);
+   
+   for (k = 20; k > 0 ; k--)  //
+   {
+      send_lcd_data(' ');
+      z++;
+   }
+}
+//====================
+
+
+
+void display_clear_line_all(void)
+{
+   display_clear_line_1();
+   display_clear_line_2();
+   display_clear_line_3();
+   display_clear_line_4();
+}
+
+
+char disp_status_line1_string[] = "RE1 RE2 RE3 RE4 RE5";
+
+void display_status_line1(void)
+{   
+unsigned char k;
+unsigned char z = 0;
+
+   send_lcd_command(lcd_line1);
+   
+   for (k = 19; k > 0 ; k--)  //
+   {
+      send_lcd_data(disp_status_line1_string[z]);
+      z++;
+   }     
+}
+//====================
+
+char disp_status_line3_string[] = "RE6 RE7 RE8 RE9";
+void display_status_line3(void)
+{   
+unsigned char k;
+unsigned char z = 0;
+
+   send_lcd_command(lcd_line3);
+   
+   for (k = 15; k > 0 ; k--)  //
+   {
+      send_lcd_data(disp_status_line3_string[z]);
+      z++;
+   }     
+}
+//====================
+
+
+char disp_startup_line1[] = "     Elektor(C)     ";
+char disp_startup_line2[] = "  9 Ch Relay Board  ";
+char disp_startup_line3[] = "      130549-1      ";
+char disp_startup_line4[] = "    Version 1.0     ";
+
+void display_startup_message (void)
+{   
+unsigned char k;
+unsigned char z = 0;
+
+   send_lcd_command(lcd_line1);
+   
+   for (k = 20; k > 0 ; k--)  //
+   {
+      send_lcd_data(disp_startup_line1[z]);
+      z++;
+   }     
+   
+   send_lcd_command(lcd_line2);
+   z = 0;
+   for (k = 20; k > 0 ; k--)  //
+   {
+      send_lcd_data(disp_startup_line2[z]);
+      z++;
+   } 
+   
+   send_lcd_command(lcd_line3);
+   z = 0;
+   for (k = 20; k > 0 ; k--)  //
+   {
+      send_lcd_data(disp_startup_line3[z]);
+      z++;
+   } 
+   
+   send_lcd_command(lcd_line4);
+   z = 0;
+   for (k = 20; k > 0 ; k--)  //
+   {
+      send_lcd_data(disp_startup_line4[z]);
+      z++;
+   } 
+}
+/*
+char disp_test1[] = "TEST1";
+void display_test1(void)
+{   
+unsigned char k;
+unsigned char z = 0;
+
+   send_lcd_command(lcd_line4+15);
+   
+   for (k = 5; k > 0 ; k--)  //
+   {
+      send_lcd_data(disp_test1[z]);
+      z++;
+   }     
+}
+//====================
+
+char disp_test2[] = "TEST2";
+void display_test2(void)
+{   
+unsigned char k;
+unsigned char z = 0;
+
+   send_lcd_command(lcd_line4+15);
+   
+   for (k = 5; k > 0 ; k--)  //
+   {
+      send_lcd_data(disp_test2[z]);
+      z++;
+   }     
+}
+//====================
+
+void display_serial_buffer(void)
+{   
+unsigned char k;
+unsigned char z = 0;
+
+   send_lcd_command(lcd_line2);
+   
+   for (k = 15; k > 0 ; k--)  //
+   {
+      send_lcd_data(c_serial_buffer[z]);
+      z++;
+   }     
+   
+   z = 0;
+   send_lcd_command(lcd_line4);
+   
+   for (k = 15; k > 0 ; k--)  //
+   {
+      send_lcd_data(c_serial_buffer_compare[z]);
+      z++;
+   }  
+}
+//====================
+*/
+
+void display_relay_status(void)
+{     
+   send_lcd_command(lcd_line2);
+   send_lcd_data('O');
+   if(input_state(RLY1) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+   
+   send_lcd_command(lcd_line2+4);
+   send_lcd_data('O');
+   if(input_state(RLY2) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+   
+   send_lcd_command(lcd_line2+8);
+   send_lcd_data('O');
+   if(input_state(RLY3) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+   
+   send_lcd_command(lcd_line2+12);
+   send_lcd_data('O');
+   if(input_state(RLY4) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+   
+   send_lcd_command(lcd_line2+16);
+   send_lcd_data('O');
+   if(input_state(RLY5) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+   
+   send_lcd_command(lcd_line4);
+   send_lcd_data('O');
+   if(input_state(RLY6) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+   
+   send_lcd_command(lcd_line4+4);
+   send_lcd_data('O');
+   if(input_state(RLY7) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+   
+   send_lcd_command(lcd_line4+8);
+   send_lcd_data('O');
+   if(input_state(RLY8) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+   
+   send_lcd_command(lcd_line4+12);
+   send_lcd_data('O');
+   if(input_state(RLY9) == 1)
+   {
+      send_lcd_data('N');
+      send_lcd_data(' ');
+   }
+   else
+   {
+      send_lcd_data('F');
+      send_lcd_data('F');
+   } 
+
+}
+
+
+
+void send_startup_message(void)
+{
+   puts(" ");
+   puts(" ");
+   puts(" ");
+   puts("Elektor(C)");
+   puts("Project Name: 9 Channel Relay Control Board with PC Interface");
+   puts("Project Number: 130549-1");
+   puts("Version 1.0");
+}
+
+

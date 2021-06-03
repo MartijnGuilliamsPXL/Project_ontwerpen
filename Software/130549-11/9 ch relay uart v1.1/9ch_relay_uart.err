@@ -1,0 +1,6 @@
+Compiling L:\Projects\13xxxx\130549-I [DS] 9 Channel Relay Control Board with PC Interface\02_lab\firmware\9 ch relay uart_Header\9ch_relay_uart on 05-jul-18 at 09:25
+>>> Warning 216 "9ch_relay_uart.c" Line 998(1,2): Interrupts disabled during call to prevent re-entrancy:  (send_relay_status)
+>>> Warning 216 "9ch_relay_uart.c" Line 998(1,2): Interrupts disabled during call to prevent re-entrancy:  (send_startup_message)
+      Memory usage:   ROM=14%      RAM=11% - 16%
+      0 Errors,  2 Warnings.
+Build Successful.
